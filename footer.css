@@ -1,0 +1,143 @@
+/* B2BProspects.io Professional Footer */
+
+.site-footer {
+  margin-top: 80px;
+  padding: 70px 6% 25px;
+  background: #11111a;
+  color: #ffffff;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.footer-main {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 60px;
+  padding-bottom: 55px;
+}
+
+.footer-brand-column {
+  max-width: 360px;
+}
+
+.footer-brand {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer-brand img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  margin-right: 12px;
+}
+
+.footer-brand span {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.footer-brand .brand-domain {
+  color: #8a2be2;
+}
+
+.footer-description {
+  margin: 20px 0 0;
+  color: rgba(255, 255, 255, 0.65);
+  line-height: 1.7;
+  font-size: 14px;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.footer-column h3 {
+  margin: 0 0 8px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.footer-column a {
+  color: rgba(255, 255, 255, 0.62);
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.2s ease;
+}
+
+.footer-column a:hover {
+  color: #ffffff;
+}
+
+.footer-bottom {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 25px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.footer-bottom p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.footer-disclaimer {
+  max-width: 520px;
+  text-align: right;
+}
+
+@media (max-width: 800px) {
+  .site-footer {
+    margin-top: 60px;
+    padding: 55px 7% 22px;
+  }
+
+  .footer-main {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px 30px;
+    padding-bottom: 40px;
+  }
+
+  .footer-brand-column {
+    grid-column: 1 / -1;
+    max-width: 100%;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .footer-disclaimer {
+    max-width: 100%;
+    text-align: left;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer-main {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .footer-brand-column {
+    grid-column: auto;
+  }
+
+  .site-footer {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+}

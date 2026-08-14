@@ -1,15 +1,20 @@
-# B2BProspects.io Website
+# B2BProspects.io Website V2.2
 
-Static HTML/CSS website designed for GitHub Pages.
+Static GitHub Pages website for B2BProspects.io.
 
-## Main entry
-`index.html`
+## Included
+- Responsive SaaS-style website
+- Extension product pages
+- Realtor Data catalog/request page
+- Contact form using FormSubmit
+- Privacy Policy and Terms
+- SEO metadata, robots.txt and sitemap.xml
+- 404 page
+- Web app manifest
+- B2BProspects branding and extension screenshots
 
 ## Contact
 b2bprospects.io@gmail.com
 
-## Deployment
-Upload the contents of this folder to the root of the `b2bprospects.io-website` GitHub repository.
-
-## Contact form
-The static contact form uses FormSubmit.co to forward submissions to b2bprospects.io@gmail.com. The first submission may require email activation by the mailbox owner.
+## Note
+The Chrome Web Store CTA currently routes to the contact page while the extension listing is under review. Replace that CTA with the final Chrome Web Store URL once the extension is published.

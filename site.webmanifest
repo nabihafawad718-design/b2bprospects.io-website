@@ -1,0 +1,9 @@
+{
+  "name": "B2BProspects.io",
+  "short_name": "B2BProspects",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#6E22D9",
+  "icons": [{"src": "assets/logo-128.png", "sizes": "128x128", "type": "image/png"}]
+}

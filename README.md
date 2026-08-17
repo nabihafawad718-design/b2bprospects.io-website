@@ -1,20 +1,20 @@
-# B2BProspects.io Website V2.2
+# B2BProspects.io V3
 
-Static GitHub Pages website for B2BProspects.io.
+GitHub Pages-ready static website.
 
-## Included
-- Responsive SaaS-style website
-- Extension product pages
-- Realtor Data catalog/request page
-- Contact form using FormSubmit
-- Privacy Policy and Terms
-- SEO metadata, robots.txt and sitemap.xml
-- 404 page
-- Web app manifest
-- B2BProspects branding and extension screenshots
+## Product priority
+1. Chrome extension
+2. Realtor data marketplace
 
-## Contact
-b2bprospects.io@gmail.com
+## Realtor dataset schema
+Name | Phone | Email | State
 
-## Note
-The Chrome Web Store CTA currently routes to the contact page while the extension listing is under review. Replace that CTA with the final Chrome Web Store URL once the extension is published.
+## Important
+- The Chrome Web Store URL is not fabricated while the extension is pending/publication status is being finalized.
+- Dataset checkout/download links are intentionally not fabricated until a payment/delivery provider is selected.
+- Contact form uses FormSubmit and forwards to b2bprospects.io@gmail.com.
+- Replace example preview rows with real inventory before publishing dataset claims.
+
+
+## Local preview
+Extract the ZIP first. Do not open files from inside the compressed folder. For a reliable preview, run `python -m http.server 8000` in this folder and open `http://localhost:8000/`.

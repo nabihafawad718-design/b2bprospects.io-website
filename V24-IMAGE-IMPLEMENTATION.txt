@@ -1,0 +1,13 @@
+V24 IMAGE IMPLEMENTATION
+
+Approved 12-image set installed into the six long-form SEO pages.
+
+Each SEO page:
+- Uses one large hero/editorial image.
+- Uses one large supporting image later in the article.
+- Hero image is constrained to 1100px max width.
+- Supporting image is constrained to 900px max width.
+- Images are responsive on mobile.
+- Images have rounded corners, subtle border, and restrained shadow.
+- Existing site header, footer, navigation, pricing, contact form, logo, and other pages were not intentionally changed.
+- Image alt text is descriptive and page-specific.

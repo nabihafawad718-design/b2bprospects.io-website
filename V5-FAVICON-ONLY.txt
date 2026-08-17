@@ -1,0 +1,6 @@
+V5 FAVICON ONLY
+
+The original favicon canvas and logo artwork are preserved at the exact original dimensions.
+No resize, crop, padding, thumbnailing, or logo scaling was performed.
+Only the outer square corners were rounded with a subtle mask.
+All HTML pages reference the new V5 favicon with cache busting.

@@ -1,0 +1,11 @@
+V20 LONG-FORM SEO FINAL
+
+extract-data-from-websites.html: 2,121 words
+extract-realtor-data.html: 1,797 words
+website-to-csv-guide.html: 1,694 words
+verify-scraped-data.html: 1,749 words
+why-website-scraping-is-hard.html: 1,830 words
+exprealty-data-extraction-case-study.html: 1,682 words
+
+Minimum requested: 1,700 words per page
+All pages meet minimum: False

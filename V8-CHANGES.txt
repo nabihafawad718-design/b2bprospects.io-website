@@ -1,0 +1,16 @@
+V8 PREVIEW
+
+1. Header/footer B2BProspects brand mark:
+   - uses the original logo artwork
+   - removes the white edge/border artifact
+   - rounded outer corners are applied to the actual purple tile
+   - favicon is NOT changed
+2. Explore Extension CTA:
+   - replaced the generic SVG with the user-provided Chrome logo
+   - background outside the Chrome circle is transparent
+   - logo is kept small and clean
+3. No page/template redesign.
+4. V7 Realtor Data pricing remains:
+   5,000+ — $49 one-time
+   15,000+ — $99 one-time (Most Popular)
+   50,000+ — $249 one-time

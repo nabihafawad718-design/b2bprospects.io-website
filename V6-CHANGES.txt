@@ -1,0 +1,11 @@
+V6 PREVIEW
+
+1. Header/footer B2BProspects logo visually enhanced using the existing logo artwork:
+   - transparent padding removed for better first-glance visibility
+   - rounded outer corners
+   - subtle purple glow
+   - favicon was NOT changed
+2. Added a small Chrome logo to Explore Extension CTAs.
+3. Pricing page now labels the section explicitly as Chrome Extension Pricing.
+4. Realtor Data pricing values were NOT changed because final prices have not yet been supplied.
+5. No template/layout redesign was made.

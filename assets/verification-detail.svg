@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="Quality control">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0e0b16"/><stop offset="1" stop-color="#171126"/></linearGradient>
+<radialGradient id="glow"><stop offset="0" stop-color="#7c3aed" stop-opacity=".28"/><stop offset="1" stop-color="#7c3aed" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="900" height="520" rx="32" fill="url(#bg)"/>
+<circle cx="130" cy="90" r="180" fill="url(#glow)"/><circle cx="760" cy="430" r="210" fill="url(#glow)" opacity=".45"/>
+
+        <path d="M440 82 L650 150 V285 Q650 390 440 445 Q230 390 230 285 V150 Z" fill="#171225" stroke="#7c3aed" stroke-width="4"/>
+        <path d="M360 260 l48 48 105-120" fill="none" stroke="#22c55e" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="150" cy="165" r="44" fill="#201a33" stroke="#06b6d4" stroke-width="3"/><path d="M130 165 l14 14 27-32" fill="none" stroke="#06b6d4" stroke-width="5"/>
+        <circle cx="730" cy="185" r="44" fill="#201a33" stroke="#06b6d4" stroke-width="3"/><path d="M710 185 l14 14 27-32" fill="none" stroke="#06b6d4" stroke-width="5"/>
+        <circle cx="690" cy="390" r="44" fill="#201a33" stroke="#22c55e" stroke-width="3"/><path d="M670 390 l14 14 27-32" fill="none" stroke="#22c55e" stroke-width="5"/>
+        <text x="315" y="470" fill="#d6cfdf" font-size="16">identity · completeness · relationship · source</text>
+        
+<text x="60" y="52" fill="#f4f0f8" font-size="22" font-family="Inter,Arial,sans-serif" font-weight="700">Quality control</text>
+<text x="60" y="490" fill="#8f869e" font-size="14" font-family="Inter,Arial,sans-serif">A record is trustworthy when its context survives extraction</text>
+</svg>

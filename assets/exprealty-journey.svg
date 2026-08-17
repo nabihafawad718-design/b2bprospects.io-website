@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="The eXp Realty challenge">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0e0b16"/><stop offset="1" stop-color="#171126"/></linearGradient>
+<radialGradient id="glow"><stop offset="0" stop-color="#8b5cf6" stop-opacity=".28"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="900" height="520" rx="32" fill="url(#bg)"/>
+<circle cx="130" cy="90" r="180" fill="url(#glow)"/><circle cx="760" cy="430" r="210" fill="url(#glow)" opacity=".45"/>
+
+        <path d="M120 350 C180 120 330 120 390 300 S600 470 760 150" fill="none" stroke="#8b5cf6" stroke-width="7" opacity=".7"/>
+        <circle cx="120" cy="350" r="28" fill="#19142b" stroke="#8b5cf6" stroke-width="4"/>
+        <circle cx="390" cy="300" r="28" fill="#19142b" stroke="#c026d3" stroke-width="4"/>
+        <circle cx="760" cy="150" r="28" fill="#19142b" stroke="#f59e0b" stroke-width="4"/>
+        <rect x="245" y="155" width="270" height="105" rx="20" fill="#171225" stroke="#3b3155"/>
+        <text x="275" y="195" fill="#e9e4f2" font-size="17">failed attempts</text><text x="275" y="225" fill="#9f96ad" font-size="14">new hypothesis → test → learn</text>
+        <rect x="540" y="335" width="205" height="88" rx="18" fill="#171225" stroke="#3b3155"/>
+        <text x="565" y="372" fill="#e9e4f2" font-size="16">useful data</text><text x="565" y="399" fill="#9f96ad" font-size="13">not just extracted text</text>
+        
+<text x="60" y="52" fill="#f4f0f8" font-size="22" font-family="Inter,Arial,sans-serif" font-weight="700">The eXp Realty challenge</text>
+<text x="60" y="490" fill="#8f869e" font-size="14" font-family="Inter,Arial,sans-serif">Two years of failed attempts led to a different way of thinking</text>
+</svg>

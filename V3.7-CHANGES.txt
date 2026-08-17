@@ -1,0 +1,7 @@
+V3.7 PREVIEW
+
+- Restored the previous favicon/logo visual size with rounded corners.
+- Added a compact homepage trust/value strip using only capability-based claims.
+- Clarified that Verified Realtor Data is a separate one-time purchase category.
+- Preserved the existing V3.6 layout, hero, screenshots, contact form and pages.
+- No fake testimonials or unverified customer-count claims were added.

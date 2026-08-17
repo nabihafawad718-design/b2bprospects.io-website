@@ -1,0 +1,6 @@
+V3.8 PREVIEW
+
+- Pricing page explicitly identifies plans as Chrome Extension pricing.
+- Verified Realtor Data is explicitly separated as a one-time purchase.
+- Replaced favicon references with a new rounded favicon filename and cache-busting query.
+- Preserved the rest of the V3.7 design and content.

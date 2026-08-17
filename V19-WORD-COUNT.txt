@@ -1,0 +1,11 @@
+V19 LONG-FORM SEO PAGES
+
+exprealty-data-extraction-case-study.html: 1,682 words
+extract-data-from-websites.html: 2,121 words
+extract-realtor-data.html: 1,797 words
+verify-scraped-data.html: 1,574 words
+website-to-csv-guide.html: 1,544 words
+why-website-scraping-is-hard.html: 1,609 words
+
+Minimum target: 1,700 words per page
+Lowest page: 1,544 words

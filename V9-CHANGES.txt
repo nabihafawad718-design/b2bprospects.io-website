@@ -1,0 +1,15 @@
+V9 APPROVED UPDATE
+
+1. Preserved the approved V8 logo and favicon.
+2. Preserved the approved overall landing-page template and three-image showcase.
+3. Improved landing-page body-copy readability using brighter off-white text and improved line height.
+4. Shifted the numbered workflow messaging toward truthful outcomes rather than unsupported percentage/time claims.
+5. Pricing page now treats Chrome Extension Pricing as the primary product section.
+6. Added/separated Verified Realtor Data pricing as a secondary section on the Pricing page.
+7. Approved Realtor Data prices:
+   - 5,000+ Realtors: $49 one-time
+   - 15,000+ Realtors: $99 one-time — Most Popular
+   - 50,000+ Realtors: $249 one-time
+8. Realtor Data package fields remain: Name, Phone, Email, State.
+9. No fabricated performance claims such as "increase leads by 20%" were added.
+10. No changes were made to the approved favicon/logo design.

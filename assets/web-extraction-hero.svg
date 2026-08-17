@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="Website extraction journey">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0e0b16"/><stop offset="1" stop-color="#171126"/></linearGradient>
+<radialGradient id="glow"><stop offset="0" stop-color="#7c3aed" stop-opacity=".28"/><stop offset="1" stop-color="#7c3aed" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="900" height="520" rx="32" fill="url(#bg)"/>
+<circle cx="130" cy="90" r="180" fill="url(#glow)"/><circle cx="760" cy="430" r="210" fill="url(#glow)" opacity=".45"/>
+
+        <path d="M110 360 C230 130 350 430 470 190 S700 210 820 115" fill="none" stroke="#7c3aed" stroke-width="5" opacity=".75"/>
+        <circle cx="110" cy="360" r="22" fill="#7c3aed"/><circle cx="470" cy="190" r="22" fill="#a855f7"/><circle cx="820" cy="115" r="22" fill="#22d3ee"/>
+        <rect x="90" y="92" width="220" height="150" rx="18" fill="#171225" stroke="#3b3155"/>
+        <rect x="112" y="120" width="175" height="10" rx="5" fill="#4c4260"/><rect x="112" y="148" width="130" height="10" rx="5" fill="#342a48"/>
+        <rect x="112" y="184" width="62" height="30" rx="8" fill="#7c3aed" opacity=".9"/><rect x="184" y="184" width="103" height="30" rx="8" fill="#28203b"/>
+        <rect x="615" y="250" width="235" height="145" rx="18" fill="#171225" stroke="#3b3155"/>
+        <rect x="640" y="280" width="70" height="12" rx="6" fill="#22d3ee"/><rect x="640" y="310" width="165" height="10" rx="5" fill="#3c3450"/>
+        <rect x="640" y="340" width="120" height="10" rx="5" fill="#3c3450"/>
+        <text x="120" y="225" fill="#e9e4f2" font-size="15">website</text><text x="650" y="380" fill="#e9e4f2" font-size="15">structured records</text>
+        
+<text x="60" y="52" fill="#f4f0f8" font-size="22" font-family="Inter,Arial,sans-serif" font-weight="700">Website extraction journey</text>
+<text x="60" y="490" fill="#8f869e" font-size="14" font-family="Inter,Arial,sans-serif">Turn a complicated website into structured records</text>
+</svg>

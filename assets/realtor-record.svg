@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="A useful realtor record">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0e0b16"/><stop offset="1" stop-color="#171126"/></linearGradient>
+<radialGradient id="glow"><stop offset="0" stop-color="#8b5cf6" stop-opacity=".28"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="900" height="520" rx="32" fill="url(#bg)"/>
+<circle cx="130" cy="90" r="180" fill="url(#glow)"/><circle cx="760" cy="430" r="210" fill="url(#glow)" opacity=".45"/>
+
+        <circle cx="215" cy="220" r="78" fill="#19142b" stroke="#8b5cf6" stroke-width="3"/>
+        <circle cx="215" cy="196" r="25" fill="#ec4899" opacity=".9"/><path d="M165 274 Q215 230 265 274" fill="#8b5cf6" opacity=".65"/>
+        <rect x="335" y="120" width="400" height="210" rx="22" fill="#171225" stroke="#3b3155"/>
+        <circle cx="370" cy="160" r="12" fill="#38bdf8"/><rect x="395" y="153" width="155" height="14" rx="7" fill="#e9e4f2" opacity=".85"/>
+        <rect x="370" y="196" width="315" height="9" rx="4" fill="#3d3551"/><rect x="370" y="220" width="250" height="9" rx="4" fill="#3d3551"/>
+        <rect x="370" y="255" width="92" height="36" rx="10" fill="#8b5cf6"/><rect x="476" y="255" width="100" height="36" rx="10" fill="#28203b"/>
+        <path d="M290 220 L335 220" stroke="#8b5cf6" stroke-width="4" stroke-dasharray="7 7"/>
+        <text x="350" y="315" fill="#bdb5cc" font-size="14">one profile → one usable record</text>
+        
+<text x="60" y="52" fill="#f4f0f8" font-size="22" font-family="Inter,Arial,sans-serif" font-weight="700">A useful realtor record</text>
+<text x="60" y="490" fill="#8f869e" font-size="14" font-family="Inter,Arial,sans-serif">Identity, contact and source context stay together</text>
+</svg>

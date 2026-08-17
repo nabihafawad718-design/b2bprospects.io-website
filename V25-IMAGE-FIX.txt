@@ -1,0 +1,11 @@
+V25 image correction
+
+The previous images were incorrectly cropped from the 1536x1024 source sheet using
+coordinates for a different source size. They were therefore only about 300px wide.
+
+V25:
+- Correctly crops all 12 book visuals.
+- Removes the surrounding catalog titles/background.
+- Upscales each source to 1200px wide for proper article presentation.
+- Keeps the existing SEO page layout and content.
+- Keeps large responsive editorial image styling.

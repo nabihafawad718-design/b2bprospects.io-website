@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="Clean data handoff">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0e0b16"/><stop offset="1" stop-color="#171126"/></linearGradient>
+<radialGradient id="glow"><stop offset="0" stop-color="#9333ea" stop-opacity=".28"/><stop offset="1" stop-color="#9333ea" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="900" height="520" rx="32" fill="url(#bg)"/>
+<circle cx="130" cy="90" r="180" fill="url(#glow)"/><circle cx="760" cy="430" r="210" fill="url(#glow)" opacity=".45"/>
+
+        <rect x="95" y="95" width="210" height="270" rx="18" fill="#171225" stroke="#3b3155"/>
+        <rect x="335" y="95" width="210" height="270" rx="18" fill="#171225" stroke="#3b3155"/>
+        <rect x="575" y="95" width="210" height="270" rx="18" fill="#171225" stroke="#3b3155"/>
+        <path d="M305 230 H335 M545 230 H575" stroke="#6366f1" stroke-width="5"/>
+        <path d="M322 220 l13 10 -13 10 M562 220 l13 10 -13 10" fill="none" stroke="#6366f1" stroke-width="4"/>
+        <rect x="120" y="130" width="150" height="13" rx="6" fill="#9333ea"/><rect x="120" y="160" width="125" height="10" rx="5" fill="#403651"/><rect x="120" y="185" width="145" height="10" rx="5" fill="#403651"/>
+        <rect x="120" y="220" width="100" height="42" rx="10" fill="#29213d"/><rect x="230" y="220" width="40" height="42" rx="10" fill="#34d399" opacity=".8"/>
+        <path d="M365 140 H515 M365 175 H490 M365 210 H520 M365 245 H470 M365 280 H510" stroke="#4a405c" stroke-width="10" stroke-linecap="round"/>
+        <path d="M605 145 H755 M605 180 H755 M605 215 H755 M605 250 H755 M605 285 H755" stroke="#4a405c" stroke-width="8" stroke-linecap="round"/>
+        <circle cx="625" cy="145" r="8" fill="#34d399"/><circle cx="625" cy="180" r="8" fill="#34d399"/><circle cx="625" cy="215" r="8" fill="#34d399"/>
+        <text x="120" y="335" fill="#e9e4f2" font-size="14">discover</text><text x="365" y="335" fill="#e9e4f2" font-size="14">clean</text><text x="605" y="335" fill="#e9e4f2" font-size="14">export</text>
+        
+<text x="60" y="52" fill="#f4f0f8" font-size="22" font-family="Inter,Arial,sans-serif" font-weight="700">Clean data handoff</text>
+<text x="60" y="490" fill="#8f869e" font-size="14" font-family="Inter,Arial,sans-serif">A readable dataset ready for the next workflow</text>
+</svg>

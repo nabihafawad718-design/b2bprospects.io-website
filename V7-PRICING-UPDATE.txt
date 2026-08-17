@@ -1,0 +1,9 @@
+V7 PRICING UPDATE
+
+Realtor Data pricing:
+5,000+ = $49 one-time
+15,000+ = $99 one-time (Most Popular)
+50,000+ = $249 one-time
+
+No template redesign was made. V6 changes remain intact, including the favicon,
+brand logo polish, Chrome logo on the Explore Extension CTA, and extension-pricing label.

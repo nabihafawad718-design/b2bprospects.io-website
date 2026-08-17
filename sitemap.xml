@@ -1,12 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://b2bprospects.io/</loc></url>
-<url><loc>https://b2bprospects.io/features.html</loc></url>
-<url><loc>https://b2bprospects.io/how-it-works.html</loc></url>
-<url><loc>https://b2bprospects.io/realtor-data.html</loc></url>
-<url><loc>https://b2bprospects.io/pricing.html</loc></url>
-<url><loc>https://b2bprospects.io/faq.html</loc></url>
-<url><loc>https://b2bprospects.io/contact.html</loc></url>
-<url><loc>https://b2bprospects.io/privacy-policy.html</loc></url>
-<url><loc>https://b2bprospects.io/terms.html</loc></url>
+  <url><loc>https://b2bprospects.io/about.html</loc></url>
+  <url><loc>https://b2bprospects.io/business-data-extractor.html</loc></url>
+  <url><loc>https://b2bprospects.io/chrome-extension.html</loc></url>
+  <url><loc>https://b2bprospects.io/contact.html</loc></url>
+  <url><loc>https://b2bprospects.io/exprealty-data-extraction-case-study.html</loc></url>
+  <url><loc>https://b2bprospects.io/extract-data-from-websites.html</loc></url>
+  <url><loc>https://b2bprospects.io/extract-realtor-data.html</loc></url>
+  <url><loc>https://b2bprospects.io/faq.html</loc></url>
+  <url><loc>https://b2bprospects.io/features.html</loc></url>
+  <url><loc>https://b2bprospects.io/index.html</loc></url>
+  <url><loc>https://b2bprospects.io/pricing.html</loc></url>
+  <url><loc>https://b2bprospects.io/privacy-policy.html</loc></url>
+  <url><loc>https://b2bprospects.io/realtor-data-extractor.html</loc></url>
+  <url><loc>https://b2bprospects.io/realtor-data.html</loc></url>
+  <url><loc>https://b2bprospects.io/resources.html</loc></url>
+  <url><loc>https://b2bprospects.io/structured-data-extractor.html</loc></url>
+  <url><loc>https://b2bprospects.io/terms.html</loc></url>
+  <url><loc>https://b2bprospects.io/verify-scraped-data.html</loc></url>
+  <url><loc>https://b2bprospects.io/website-data-extractor.html</loc></url>
+  <url><loc>https://b2bprospects.io/website-to-csv-guide.html</loc></url>
+  <url><loc>https://b2bprospects.io/website-to-csv.html</loc></url>
+  <url><loc>https://b2bprospects.io/why-website-scraping-is-hard.html</loc></url>
 </urlset>

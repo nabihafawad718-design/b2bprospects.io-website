@@ -1,0 +1,10 @@
+V3.5 PREVIEW
+
+- Uses the actual B2BProspects logo and the actual extension-preview-1/2/3 images from V3.4. No generated/mock extension imagery was added.
+- Hero image remains the original V3 hero (extension-preview-1).
+- Product Experience retains the 3-image collage using the three real project images.
+- Realtor Data is a single combined verified marketplace.
+- Preview pack sizes: 5,000+, 15,000+, 50,000+.
+- Suggested preview prices: $149 / $299 / $799+. These are suggestions only and should be changed before publishing if they do not match your intended margins.
+- Favicon uses the actual logo with padding/rounded treatment so the mark appears smaller in the browser tab.
+- Contact page/form from V3.4 is preserved.

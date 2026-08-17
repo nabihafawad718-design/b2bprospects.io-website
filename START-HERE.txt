@@ -1,0 +1,11 @@
+B2BProspects.io V3.4
+
+Hero: restored to the original richer product image.
+Homepage: restored the three-image product showcase further down the page.
+Realtor Data: one combined marketplace with Raw / Enriched / Verified positioning.
+Contact: preserved with b2bprospects.io@gmail.com.
+
+Important: exact Realtor Data pack prices were not present in the current project files, so no prices were invented. Add the previously agreed exact prices before publishing.
+
+Preview locally: python -m http.server 8000
+Open: http://localhost:8000

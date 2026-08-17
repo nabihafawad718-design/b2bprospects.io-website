@@ -1,0 +1,1 @@
+V17 adds six substantive SEO/resource pages, links them from Resources, and adds them to sitemap.xml. Existing approved design, pricing, contact form, logo, favicon, and footer email were preserved. The new pages are intended as useful guides/case study content, not keyword-stuffed doorway pages.

@@ -1,0 +1,20 @@
+V18 FULL-SITE SEO IMPLEMENTATION
+
+Implemented:
+- Unique title + meta description across public HTML pages.
+- Canonical URLs.
+- Robots index/follow directives.
+- Open Graph + Twitter metadata.
+- Consistent favicon references.
+- Image alt-text pass for images missing alt attributes.
+- Lazy loading for non-first images.
+- Homepage Organization + WebSite structured data where absent.
+- robots.txt with sitemap reference.
+- Complete XML sitemap for HTML pages.
+- Image sitemap for local image assets.
+- Preserved existing contact form, pricing, logo, favicon asset, and approved visual layout.
+- Added the technical SEO foundation around the V17 content layer.
+
+Important:
+- External links were not added just for an SEO checklist. Google recommends useful, crawlable internal linking and people-first content; external links should be added when they genuinely help the reader.
+- Search rankings and indexing cannot be guaranteed by on-page SEO alone.

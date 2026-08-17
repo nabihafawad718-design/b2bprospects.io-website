@@ -1,0 +1,7 @@
+V11 UPDATE
+
+- Removed the accidental standalone Most Popular vertical strip from the Realtor Data page.
+- Restored the three Realtor Data pricing cards to one horizontal row on desktop, matching the intended Pricing page layout.
+- Kept the 15,000+ card itself as the Most Popular package.
+- Preserved all approved prices, logo, favicon, homepage, images, and other content.
+- Responsive behavior remains: cards stack on smaller screens.

@@ -1,0 +1,10 @@
+V10 UPDATE
+
+Only requested change:
+- Realtor Data page pricing cards are now stacked vertically in one column.
+- This matches the cleaner, easier-to-scan direction of the Pricing page.
+- No logo, favicon, hero, images, pricing values, homepage layout, or other sections were changed.
+- Approved Realtor Data pricing remains:
+  5,000+ Realtors — $49 one-time
+  15,000+ Realtors — $99 one-time — Most Popular
+  50,000+ Realtors — $249 one-time

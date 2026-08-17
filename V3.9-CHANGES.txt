@@ -1,0 +1,6 @@
+V3.9 PREVIEW
+
+- Favicon visible size restored to the larger/original relative scale.
+- Rounded the favicon icon itself without shrinking the B2BProspects mark.
+- Updated favicon references and cache-busting to v39.
+- No other website layout/content changes.

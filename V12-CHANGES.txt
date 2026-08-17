@@ -1,0 +1,8 @@
+V12 UPDATE
+
+Only requested change:
+- Realtor Data pricing: ONLY the 15,000+ Most Popular package has the purple/pink CTA.
+- 5,000+ and 50,000+ CTAs are neutral.
+- Three pricing cards remain in one row.
+- The standalone purple Most Popular strip remains removed.
+- Prices, logo, favicon, homepage, images, and other layouts are unchanged.

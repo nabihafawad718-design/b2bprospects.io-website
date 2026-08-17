@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="The scraping maze">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0e0b16"/><stop offset="1" stop-color="#171126"/></linearGradient>
+<radialGradient id="glow"><stop offset="0" stop-color="#a855f7" stop-opacity=".28"/><stop offset="1" stop-color="#a855f7" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="900" height="520" rx="32" fill="url(#bg)"/>
+<circle cx="130" cy="90" r="180" fill="url(#glow)"/><circle cx="760" cy="430" r="210" fill="url(#glow)" opacity=".45"/>
+
+        <rect x="85" y="85" width="700" height="320" rx="28" fill="#141021" stroke="#33294b"/>
+        <path d="M125 150 H260 V250 H390 V130 H535 V320 H675 V190 H745" fill="none" stroke="#a855f7" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" opacity=".8"/>
+        <path d="M125 330 H205 V210 H330 V350 H500 V210 H610 V110 H745" fill="none" stroke="#6366f1" stroke-width="9" stroke-linecap="round" opacity=".65"/>
+        <circle cx="125" cy="150" r="20" fill="#f472b6"/><circle cx="745" cy="190" r="20" fill="#f472b6"/>
+        <circle cx="390" cy="130" r="11" fill="#f4f0f8"/><circle cx="500" cy="210" r="11" fill="#f4f0f8"/>
+        <text x="115" y="455" fill="#d6cfdf" font-size="17">visible page ≠ complete data structure</text>
+        
+<text x="60" y="52" fill="#f4f0f8" font-size="22" font-family="Inter,Arial,sans-serif" font-weight="700">The scraping maze</text>
+<text x="60" y="490" fill="#8f869e" font-size="14" font-family="Inter,Arial,sans-serif">Modern websites hide useful information behind layers</text>
+</svg>

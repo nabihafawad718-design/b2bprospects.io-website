@@ -1,0 +1,6 @@
+V4 FAVICON FIX
+
+The favicon uses the original favicon-64.png as its source.
+The visible logo is kept large; transparent padding is cropped away.
+The ONLY visual change is rounded corners.
+All HTML pages reference the new V4 favicon with cache-busting.

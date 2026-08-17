@@ -1,0 +1,15 @@
+V23 CONTENT VISUAL UPDATE
+
+Replaced the generic website/logo screenshots used inside the six long-form SEO pages with original,
+content-specific editorial SVG illustrations.
+
+Each page now has two unique visuals designed around the subject:
+- Extract Data From Websites: extraction journey + structural discovery
+- Extract Realtor Data: realtor network + useful profile record
+- Website to CSV: extraction pipeline + clean data handoff
+- Verify Scraped Data: verification shield + quality control
+- Why Scraping Is Hard: scraping maze + layered architecture
+- eXp Realty Case Study: long challenge journey + breakthrough to useful data
+
+Brand logo and Chrome CTA assets were intentionally left unchanged.
+No third-party image URLs, website screenshots, or external logos were added.

@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>How to Verify Scraped Data Before Using It: Complete Guide | B2BProspects.io</title>
+<meta name="description" content="A detailed guide to verifying extracted website data, checking record identity, field relationships, duplicates, completeness, source accuracy, and practical data quality.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://b2bprospects.io//verify-scraped-data/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="How to Verify Scraped Data Before Using It: Complete Guide | B2BProspects.io">
+<meta property="og:description" content="A detailed guide to verifying extracted website data, checking record identity, field relationships, duplicates, completeness, source accuracy, and practical data quality.">
+<meta property="og:url" content="https://b2bprospects.io//verify-scraped-data/">
+<meta property="og:image" content="https://b2bprospects.io//assets/extension-preview-1.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How to Verify Scraped Data Before Using It: Complete Guide | B2BProspects.io">
+<meta name="twitter:description" content="A detailed guide to verifying extracted website data, checking record identity, field relationships, duplicates, completeness, source accuracy, and practical data quality.">
+<meta name="twitter:image" content="https://b2bprospects.io//assets/extension-preview-1.png">
+<link rel="icon" type="image/png" href="/assets/favicon-original-size-rounded-v5.png?v=5" sizes="64x64">
+<link rel="stylesheet" href="//css/style.css">
+<style>
+.seo-section .prose p { font-size:1.06rem; line-height:1.85; color:rgba(255,255,255,.78); }
+.seo-section .prose h2 { margin-top:12px; }
+.seo-image { margin:28px 0 10px; }
+.seo-image img { display:block; width:100%; max-height:560px; object-fit:cover; border-radius:24px; border:1px solid rgba(255,255,255,.1); }
+.seo-image figcaption { margin-top:10px; color:rgba(255,255,255,.55); font-size:.9rem; }
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"How to Verify Scraped Data Before Using It: Complete Guide","description":"A detailed guide to verifying extracted website data, checking record identity, field relationships, duplicates, completeness, source accuracy, and practical data quality.","author":{"@type":"Organization","name":"B2BProspects.io"},"publisher":{"@type":"Organization","name":"B2BProspects.io","url":"https://b2bprospects.io/"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://b2bprospects.io//verify-scraped-data/"}}</script>
+
+<style id="seo-editorial-image-sizing-old">
+.seo-content-image {
+  width: 100%;
+  max-width: 1100px;
+  height: auto;
+  display: block;
+  margin: 42px auto 54px;
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,.10);
+  box-shadow: 0 22px 60px rgba(0,0,0,.28);
+}
+.seo-content-image.supporting {
+  max-width: 900px;
+}
+@media (max-width: 760px) {
+  .seo-content-image,
+  .seo-content-image.supporting {
+    width: 100%;
+    margin: 30px auto 38px;
+    border-radius: 14px;
+  }
+}
+</style>
+
+
+<style id="seo-editorial-image-sizing-v25">
+.seo-content-image {
+  display: block;
+  width: 100%;
+  max-width: 1100px;
+  height: auto;
+  margin: 42px auto 54px;
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,.10);
+  box-shadow: 0 22px 60px rgba(0,0,0,.28);
+}
+.seo-content-image.supporting {
+  max-width: 900px;
+}
+@media (max-width: 760px) {
+  .seo-content-image,
+  .seo-content-image.supporting {
+    width: 100%;
+    max-width: 100%;
+    margin: 30px auto 38px;
+    border-radius: 14px;
+  }
+}
+</style>
+
+</head>
+<body>
+<header class="site-header"><div class="container nav-wrap"><a class="brand" href="/" aria-label="B2BProspects home"><img class="brand-mark" src="//assets/brand-mark-v8.png" alt="B2BProspects logo"><span>B2B<span>Prospects</span><small>.io</small></span></a><button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button><nav class="nav" aria-label="Primary navigation"><a href="/chrome-extension/">Chrome Extension</a><a href="/features/">Features</a><a href="/realtor-data/">Realtor Data</a><a href="/resources/">Resources</a><a href="/pricing/">Pricing</a><a href="/contact/">Contact</a></nav><a class="btn btn-primary nav-cta" href="/chrome-extension/"><img class="chrome-cta-icon" src="//assets/chrome-logo-v8.png" alt="" aria-hidden="true" loading="lazy"><span>Explore Extension</span><span>→</span></a></div></header>
+<main>
+<section class="page-hero"><div class="container">
+<div class="breadcrumbs"><a href="/">Home</a> / <a href="/resources/">Resources</a> / Guide · Data quality</div>
+<span class="eyebrow">Guide · Data quality</span>
+<h1>How to Verify Scraped Data Before You Trust It</h1>
+<p>A scraper can return thousands of rows and still produce a dataset that is wrong for the intended purpose. Verification is the step that separates “data was extracted” from “the data is useful.” This guide explains how to review extracted records before they reach a spreadsheet, CRM, campaign, or downstream workflow.</p>
+<figure class="seo-image"><img class="seo-content-image" src="/assets/07-verify-scraped-data-hero.png" alt="Verifying scraped data" loading="eager"><figcaption>Example visual from the B2BProspects website and product workflow.</figcaption></figure>
+</div></section>
+<section class="section seo-section" id="section-1">
+<div class="container narrow"><div class="prose"><span class="eyebrow">Section 1</span><h2>1. Verify That Each Row Represents the Right Entity</h2><p>Start with identity. Every row should represent the thing you intended to collect.</p><p>If the project is about people, each row should represent a person. If it is about companies, each row should represent a company. If it is about realtor profiles, the row should correspond to the correct profile.</p><p>This sounds basic, but websites contain many repeated elements that can confuse an extraction process. A company name can appear in navigation, a footer, a profile card, and a related-content section. A phone number can belong to a business rather than the person whose profile you are viewing.</p><p>Pick a small sample and compare each row to the source page. Ask: “If I handed this row to someone who had never seen the source, would they understand who or what it represents?”</p><p>Profile URLs and source URLs are particularly useful here. They give you a direct reference back to the source record and make verification faster.</p><p>For large datasets, you do not need to manually inspect every record to find systematic problems. A representative sample can reveal whether the extraction logic is associating the right fields with the right entity. If the sample looks wrong in the same way repeatedly, collecting more records will only scale the problem.</p><p>Verification can be measured. Useful metrics include field completion, duplicate rate, sample accuracy, and the percentage of records that meet the project&#x27;s minimum requirements. These metrics do not make the dataset automatically correct, but they give you a clearer picture than a raw row count.</p></div></div>
+</section><section class="section seo-section" id="section-2">
+<div class="container narrow"><div class="prose"><span class="eyebrow">Section 2</span><h2>2. Check Relationships Between Names, Phones, Emails, and Other Fields</h2><p>A record is a set of related fields. Verification should therefore check relationships, not just individual values.</p><p>A phone number can be valid but belong to a brokerage. An email address can be correctly formatted but belong to a generic office inbox. A website can be valid but belong to a parent company rather than the individual profile.</p><p>Look at the source context around each field. If the page labels a number as an office line, keep that meaning. If it does not distinguish the number, do not invent a classification.</p><p>The same principle applies to email addresses. If a site provides a generic contact address, it may still be useful, but it should not be presented as a direct personal email without evidence.</p><p>Names require similar care. A team page can list several people while the page title represents only the team. An extraction process that associates the page title with every phone number could create misleading rows.</p><p>When the dataset will be used for outreach, these relationships matter. A valid-looking contact field is not enough. The field must belong to the intended record.</p><p>A useful verification workflow therefore combines automated checks with human sampling. Automated rules can identify blanks, malformed values, repeated identifiers, and suspicious patterns. Human review can determine whether the relationships make sense.</p><p>It is also useful to distinguish source accuracy from business usefulness. A source may accurately display an office phone number, but if your project specifically needs direct phone numbers, that field is not sufficient for the intended purpose. Verification should therefore be tied to the goal of the dataset.</p></div></div>
+</section><section class="section seo-section" id="section-3">
+<div class="container narrow"><div class="prose"><span class="eyebrow">Section 3</span><h2>3. Find Duplicates, Missing Values, and Systematic Errors</h2><p>Duplicate detection should begin with the strongest identifier available.</p><p>For profile-based data, the profile URL may be a useful key. For companies, a domain can be stronger than a company name. For other projects, a combination of fields may be needed.</p><p>Do not use a single field blindly. Two people can share a name, and a company can have several locations. Likewise, two legitimate records can share an office phone number.</p><p>Missing values deserve their own review. Calculate completion rates for the fields that matter. If a dataset contains 10,000 rows but only 1,000 have the field required for your campaign, the headline row count does not tell the whole story.</p><p>Systematic errors are more dangerous than random errors. If a small percentage of rows contain a typo, manual cleanup may be enough. If every phone number comes from the wrong component, the extraction method needs to be corrected before scaling.</p><p>Sample across different page types, not just the first few rows. If a site has several profile templates or categories, verify examples from each.</p><p>The goal is not to claim perfect data. The goal is to understand the dataset well enough to know what it contains, what it does not contain, and what limitations should be considered before use.</p><p>When reviewing samples, choose records from different parts of the source. If the website contains several templates, categories, locations, or profile types, a sample from only one category can give a false sense of confidence. Coverage matters as much as sample size.</p></div></div>
+</section><section class="section seo-visual-section"><div class="container narrow">
+<figure class="seo-image"><img class="seo-content-image supporting" src="/assets/08-verify-scraped-data-detail.png" alt="Scraped data verification process" loading="lazy"><figcaption>Keeping the extraction result visible makes review easier before export.</figcaption></figure>
+</div></section><section class="section seo-section" id="section-4">
+<div class="container narrow"><div class="prose"><span class="eyebrow">Section 4</span><h2>4. Compare the Dataset With the Original Website</h2><p>Source comparison is one of the strongest verification methods available.</p><p>Choose a random sample and open the original pages. Compare the extracted name, phone, email, company, location, and URL against the source. Do not only check whether the values look plausible. Check whether they actually appear in the expected context.</p><p>This can reveal problems that formatting checks cannot. For example, a phone number may have a perfect format but be the site&#x27;s general office number. An email may be real but belong to a different contact.</p><p>Keep the source URL in the dataset whenever possible. It turns verification from a search exercise into a direct comparison.</p><p>For repeated projects, consider recording the extraction date. Websites change. A profile can be updated, removed, or moved. A later verification attempt may therefore produce a different result even when the extraction method is unchanged.</p><p>Source comparison is also useful when evaluating a new extraction workflow. Before scaling, test a small sample and compare it manually. This is often faster than debugging a massive file after the fact.</p><p>A good extraction system should make verification easy rather than hiding the output behind a black box. Seeing the records in a table before export gives users a practical opportunity to catch mistakes.</p><p>If an error is systematic, fix the extraction logic instead of manually repairing every row. Manual cleanup can be appropriate for small exceptions, but repeated errors usually indicate that the extraction rule does not understand the page structure correctly.</p></div></div>
+</section><section class="section seo-section" id="section-5">
+<div class="container narrow"><div class="prose"><span class="eyebrow">Section 5</span><h2>5. Decide Whether the Data Is Fit for the Intended Use</h2><p>Verification ends with a decision: is this dataset appropriate for the purpose?</p><p>There is no universal definition of “good data.” A research dataset, CRM import, marketing list, and internal analysis may have different requirements.</p><p>Define the minimum acceptable fields. For a campaign, you may require name and phone. For an email workflow, you may require a usable email. For analysis, location and category fields may be more important.</p><p>Then document limitations. If a source does not expose direct emails, say so. If some profiles only contain office numbers, distinguish that from direct contact information.</p><p>Avoid using a raw extraction as though it were automatically verified. The word “scraped” describes how the data was collected, not whether it is accurate.</p><p>B2BProspects is built around this distinction. The product focuses on discovering accessible data, extracting records, giving users a way to review what was found, and exporting the result. Ready-to-use realtor datasets are handled separately as verified data products.</p><p>The most important habit is to review before you trust. A five-minute sample check can save hours of cleanup and prevent a large dataset from becoming a large problem.</p><p>A trustworthy workflow should make limitations visible. If some fields cannot be found consistently, record that reality rather than filling blanks with guesses. Honest incompleteness is safer than invented completeness.</p></div></div>
+</section>
+<section class="section seo-section"><div class="container narrow"><div class="prose"><span class="eyebrow">Practical checklist</span><h2>Additional Checks Before You Use the Data</h2><p>A useful verification checklist can also be organized around four questions: identity, relationship, completeness, and source. Identity asks whether the row represents the intended entity. Relationship asks whether the fields belong together. Completeness asks whether the important fields are populated. Source asks whether the values can be traced back to the original page. Looking at all four prevents a single metric from giving a misleading impression of quality.</p><p>For teams, it helps to agree on these definitions before a dataset is delivered. One person may consider a row complete because it has a name and website, while another may require a phone and email. A shared definition makes quality reviews much more consistent and makes it easier to compare datasets produced at different times.</p><p>The same thinking applies when data is purchased rather than extracted. A buyer should know what “verified” means for the particular product and what fields are included. Verification should describe a process and a standard, not simply act as a marketing word.</p></div></div></section><section class="section"><div class="container narrow"><div class="hero-actions">
+<a class="btn btn-secondary" href="/resources/">← Back to Resources</a>
+<a class="btn btn-primary" href="/chrome-extension/">Explore the Extension →</a>
+</div></div></section>
+</main>
+<footer class="footer"><div class="container footer-grid"><div><a class="brand footer-brand" href="/"><img class="brand-mark" src="//assets/brand-mark-v8.png" alt="B2BProspects logo" loading="lazy"><span>B2B<span>Prospects</span><small>.io</small></span></a><p>Practical tools for extracting useful website data and ready-to-use realtor datasets.</p><div class="footer-email"><a href="mailto:b2bprospects.io@gmail.com">b2bprospects.io@gmail.com</a></div></div><div><h3>Product</h3><a href="/chrome-extension/">Chrome Extension</a><a href="/features/">Features</a><a href="/pricing/">Pricing</a></div><div><h3>Data</h3><a href="/realtor-data/">Realtor Data</a></div><div><h3>Company</h3><a href="/about/">About</a><a href="/resources/">Resources</a><a href="/contact/">Contact</a><a href="/privacy-policy/">Privacy</a><a href="/terms/">Terms</a></div></div><div class="container footer-bottom"><span>© 2026 B2BProspects.io. All rights reserved.</span><span>Built for fast, practical data workflows.</span></div></footer>
+</body></html>

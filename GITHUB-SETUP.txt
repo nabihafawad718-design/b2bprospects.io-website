@@ -1,0 +1,36 @@
+B2BProspects eXp Realty SEO page — GitHub setup
+
+1. Create this folder in the repository:
+   extract-exp-realty-data/
+
+2. Upload:
+   extract-exp-realty-data/index.html
+
+3. Upload these two images into:
+   assets/
+   - exp-realty-data-extraction.jpg
+   - b2bprospects-exp-realty-extraction.jpg
+
+4. Modify sitemap.xml by adding the contents of sitemap-addition.txt.
+
+5. Modify resources/index.html by adding the link shown in resources-internal-link.txt.
+   Put it in a relevant resources/article listing area; do not replace the whole file.
+
+6. Do NOT replace the homepage, CSS, JavaScript, DNS settings, Search Console settings, or Analytics property.
+
+7. After publishing, open Google Search Console and use URL Inspection for:
+   https://b2bprospects.io/extract-exp-realty-data/
+   Then request indexing.
+
+The new article already includes:
+- SEO title and meta description
+- canonical URL
+- Open Graph/Twitter metadata
+- Google Analytics measurement ID G-CNYDVXFX1H
+- Article structured data
+- FAQ structured data
+- H1/H2/H3 hierarchy
+- two image placements and descriptive alt text
+- internal links
+- Chrome extension CTA
+- mobile styling

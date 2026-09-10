@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url><loc>https://b2bprospects.io/</loc></url>
   <url><loc>https://b2bprospects.io/about/</loc></url>
   <url><loc>https://b2bprospects.io/business-data-extractor/</loc></url>
@@ -23,10 +24,7 @@
   <url><loc>https://b2bprospects.io/website-to-csv-guide/</loc></url>
   <url><loc>https://b2bprospects.io/website-to-csv/</loc></url>
   <url><loc>https://b2bprospects.io/why-website-scraping-is-hard/</loc></url>
-
-  <!-- New eXp Realty data extraction article -->
   <url><loc>https://b2bprospects.io/extract-exp-realty-data/</loc></url>
+  <url><loc>https://b2bprospects.io/web-data-extractor/</loc></url>
+
 </urlset>
-<url>
-  <loc>https://b2bprospects.io/web-data-extractor/</loc>
-</url>

@@ -42,213 +42,6 @@
   }
 }
 </style>
-<style id="hero-layout-reference-v3">
-/* Homepage visual-only redesign. SEO/head metadata, URLs, copy, and site functionality are unchanged. */
-.hero{
-  position:relative;
-  isolation:isolate;
-  overflow:hidden;
-  padding:34px 0 74px;
-  background:
-    radial-gradient(ellipse 55% 42% at 50% 31%, rgba(72,58,190,.18), transparent 72%),
-    radial-gradient(circle at 4% 54%, rgba(40,68,255,.28), transparent 28%),
-    radial-gradient(circle at 97% 55%, rgba(150,35,255,.25), transparent 28%),
-    linear-gradient(180deg,#07091d 0%,#090b27 48%,#0a0b22 100%);
-}
-.hero:before{
-  content:"";
-  position:absolute;
-  z-index:-2;
-  left:-9%; right:-9%;
-  bottom:5%;
-  height:44%;
-  border-radius:50%;
-  border-top:2px solid rgba(103,91,255,.72);
-  box-shadow:
-    0 -1px 0 rgba(255,255,255,.08),
-    0 -30px 90px rgba(69,65,255,.30),
-    0 -80px 150px rgba(112,40,255,.14);
-  transform:rotate(-1deg);
-}
-.hero:after{
-  content:"";
-  position:absolute;
-  z-index:-3;
-  width:520px; height:520px;
-  left:-230px; top:38%;
-  border-radius:50%;
-  background:radial-gradient(circle,rgba(48,71,255,.48) 0%,rgba(63,42,255,.17) 32%,transparent 70%);
-  filter:blur(10px);
-}
-.hero-grid{
-  position:relative;
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  gap:28px;
-  max-width:1280px;
-  margin:0 auto;
-  text-align:center;
-}
-.hero-grid>div:first-child{
-  width:min(930px,100%);
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-}
-.eyebrow{
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
-  min-height:36px;
-  margin:0 auto;
-  padding:0 17px;
-  border:1px solid rgba(129,100,255,.55);
-  border-radius:999px;
-  background:linear-gradient(180deg,rgba(99,67,255,.24),rgba(72,42,180,.12));
-  box-shadow:0 0 28px rgba(96,60,255,.18), inset 0 0 18px rgba(255,255,255,.035);
-  color:#ecebff;
-  letter-spacing:.02em;
-}
-.hero h1{
-  max-width:900px;
-  margin:18px auto 18px;
-  font-size:clamp(50px,6.2vw,82px);
-  line-height:.98;
-  letter-spacing:-4.7px;
-  text-wrap:balance;
-  text-shadow:0 10px 50px rgba(0,0,0,.25);
-}
-.hero h1 .gradient{
-  background:linear-gradient(90deg,#5e9dff 0%,#8b5cff 46%,#d43eea 100%);
-  -webkit-background-clip:text;
-  background-clip:text;
-  -webkit-text-fill-color:transparent;
-}
-.hero-grid>div:first-child>p{
-  max-width:720px;
-  margin:0 auto;
-  color:#c0c4dd;
-  font-size:17px;
-  line-height:1.62;
-}
-.hero-actions{
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  gap:14px;
-  margin:26px 0 4px;
-}
-.hero-actions .btn-primary,
-.nav-cta{
-  box-shadow:0 12px 34px rgba(71,83,255,.25),0 0 30px rgba(192,49,235,.13);
-}
-.hero-actions .btn-primary:before,
-.nav-cta:before{display:none;}
-.micro{
-  display:flex;
-  justify-content:center;
-  flex-wrap:wrap;
-  gap:8px 22px;
-  margin-top:12px;
-  color:#8e94b2;
-  font-size:12px;
-}
-.product-window{
-  position:relative;
-  width:min(1120px,calc(100% - 40px));
-  margin:6px auto 0;
-  padding:0!important;
-  background:transparent!important;
-  border:0!important;
-  border-radius:0!important;
-  box-shadow:none!important;
-  transform:none!important;
-  overflow:visible!important;
-}
-.product-window .window-bar{display:none!important;}
-.product-window:before{
-  content:"";
-  position:absolute;
-  z-index:-1;
-  left:7%; right:7%; top:12%; bottom:4%;
-  border-radius:50%;
-  background:radial-gradient(ellipse at center,rgba(83,69,255,.46) 0%,rgba(114,45,255,.22) 38%,transparent 72%);
-  filter:blur(42px);
-}
-.product-window:after{
-  content:"";
-  position:absolute;
-  z-index:3;
-  left:0; right:0; bottom:-2px;
-  height:32%;
-  pointer-events:none;
-  background:linear-gradient(to bottom,transparent 0%,rgba(9,11,34,.03) 25%,#0a0b22 100%);
-}
-.product-window img{
-  display:block;
-  width:100%;
-  height:auto;
-  border:0!important;
-  border-radius:24px;
-  box-shadow:
-    0 40px 100px rgba(0,0,0,.54),
-    0 0 0 1px rgba(119,116,255,.14),
-    0 0 90px rgba(76,57,255,.20);
-  -webkit-mask-image:linear-gradient(90deg,transparent 0%,#000 4%,#000 96%,transparent 100%);
-  mask-image:linear-gradient(90deg,transparent 0%,#000 4%,#000 96%,transparent 100%);
-}
-/* Decorative floating feature cards are created with CSS so no new images are required. */
-.product-window:global{}
-
-.hero-float{
-  position:absolute;
-  z-index:5;
-  display:flex;
-  align-items:center;
-  gap:12px;
-  min-width:220px;
-  padding:14px 17px;
-  border:1px solid rgba(86,121,255,.55);
-  border-radius:16px;
-  background:linear-gradient(135deg,rgba(12,17,49,.88),rgba(20,15,52,.72));
-  box-shadow:0 18px 45px rgba(0,0,0,.30),0 0 35px rgba(69,64,255,.16);
-  backdrop-filter:blur(12px);
-  text-align:left;
-}
-.hero-float-left{left:-34px;top:30%;}
-.hero-float-right{right:-34px;top:20%;}
-.hero-float-icon{
-  display:grid;
-  place-items:center;
-  flex:0 0 42px;
-  width:42px;height:42px;
-  border-radius:50%;
-  background:linear-gradient(135deg,#347dff,#713dff);
-  color:#fff;
-  font-size:23px;
-  box-shadow:0 0 24px rgba(74,87,255,.35);
-}
-.hero-float strong{display:block;color:#f5f4ff;font-size:14px;line-height:1.2;}
-.hero-float small{display:block;margin-top:4px;color:#aeb3cf;font-size:11px;line-height:1.35;max-width:170px;}
-.product-window .dot{display:none;}
-@media(min-width:1050px){
-  .product-window:global{}
-  .product-window::marker{display:none;}
-}
-.trust-strip{position:relative;z-index:2;margin-top:-1px;}
-@media(max-width:850px){
-  .hero{padding:28px 0 52px;}
-  .hero-grid{gap:24px;}
-  .hero h1{font-size:clamp(42px,10vw,62px);letter-spacing:-3px;}
-  .hero-grid>div:first-child>p{font-size:16px;line-height:1.6;}
-  .hero-actions{flex-wrap:wrap;}
-  .product-window{width:calc(100% - 22px);}
-  .product-window img{border-radius:18px;-webkit-mask-image:none;mask-image:none;}
-  .micro{gap:7px 14px;}
-  .hero-float{display:none;}
-}
-</style>
 
 <!-- Google Analytics -->
 <!-- Google tag (gtag.js) -->
@@ -262,7 +55,53 @@
   gtag('config', 'G-CNYDVXFX1H');
 </script>
 
-</head><body><header class="site-header"><div class="container nav-wrap"><a class="brand" href="/" aria-label="B2BProspects home"><img class="brand-mark" src="/assets/brand-mark-v8.png" alt="B2BProspects logo"><span>B2B<span>Prospects</span><small>.io</small></span></a><button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button><nav class="nav" aria-label="Primary navigation"><a href="/chrome-extension/">Chrome Extension</a><a href="/features/">Features</a><a href="/realtor-data/">Realtor Data</a><a href="/resources/">Resources</a><a href="/pricing/">Pricing</a><a href="/contact/">Contact</a></nav><a class="btn btn-primary nav-cta" href="https://chrome.google.com/webstore/detail/mnpdkbcgcdhegdmcjgfeiidcdmdfjkcg"><img class="chrome-cta-icon" src="/assets/chrome-logo-v8.png" alt="B2BProspects website data extraction tool" aria-hidden="true" loading="lazy"><span>Explore Extension</span><span>→</span></a></div></header><main><section class="hero"><div class="container hero-grid"><div><span class="eyebrow">Chrome extension • data marketplace</span><h1>Extract hidden <span class="gradient">realtor data</span> from directory websites.</h1><p>B2BProspects is a Chrome extension for real estate prospecting. It extracts available hidden or embedded realtor data from supported directory websites, lets you review the records, and exports structured prospect data to CSV.</p><div class="hero-actions"><a class="btn btn-primary" href="https://chrome.google.com/webstore/detail/mnpdkbcgcdhegdmcjgfeiidcdmdfjkcg">Explore the Chrome Extension →</a><a class="btn btn-secondary" href="/realtor-data/">Browse Realtor Data</a></div><div class="micro"><span>Realtor directory data extraction</span><span>Review extracted realtor records</span><span>Export prospect data to CSV</span></div></div><div class="product-window"><div class="hero-float hero-float-left"><span class="hero-float-icon">⌕</span><span><strong>Find Hidden Data</strong><small>Extract embedded realtor information</small></span></div><div class="hero-float hero-float-right"><span class="hero-float-icon">▣</span><span><strong>Structured Data</strong><small>Clean, organized and ready for your workflow</small></span></div><div class="window-bar"><i class="dot"></i><i class="dot"></i><i class="dot"></i></div><img src="/assets/extension-preview-1.png" alt="B2BProspects website data extraction and CSV export interface" width="1280" height="800" loading="lazy"></div></div></section>
+
+<style id="homepage-reference-layout-v1">
+:root{--hero-bg:#05081c;--hero-blue:#2e5bff;--hero-violet:#7a35ff;--hero-pink:#e23cff;}
+body{background:#05081c;overflow-x:hidden}
+.site-header{position:relative;z-index:20;background:rgba(5,8,28,.72)!important;border-bottom:1px solid rgba(255,255,255,.07)!important;backdrop-filter:blur(18px)}
+.site-header .container{max-width:1280px}
+.brand-mark{width:48px!important;height:48px!important;object-fit:contain}
+.hero{position:relative;isolation:isolate;overflow:hidden;padding:58px 0 88px!important;background:
+ radial-gradient(ellipse 50% 34% at 50% 35%,rgba(54,83,255,.18),transparent 70%),
+ radial-gradient(ellipse 40% 35% at 12% 78%,rgba(105,38,255,.34),transparent 72%),
+ radial-gradient(ellipse 42% 34% at 92% 72%,rgba(38,77,255,.30),transparent 72%),
+ linear-gradient(180deg,#070a23 0%,#060a20 48%,#07051d 100%)!important}
+.hero:before{content:"";position:absolute;z-index:-1;left:-15%;right:-15%;bottom:34px;height:420px;border-radius:50%;border:2px solid rgba(116,77,255,.85);box-shadow:0 -18px 80px rgba(68,53,255,.35),0 -2px 30px rgba(53,100,255,.35);transform:rotate(-1deg);opacity:.85}
+.hero:after{content:"";position:absolute;z-index:-1;left:-8%;right:-8%;bottom:-80px;height:360px;border-radius:50%;border-top:2px solid rgba(38,110,255,.6);box-shadow:0 -10px 90px rgba(50,60,255,.45);transform:rotate(5deg);opacity:.8}
+.hero-grid{display:flex!important;flex-direction:column!important;align-items:center!important;gap:28px!important;max-width:1280px!important;text-align:center!important;position:relative;z-index:2}
+.hero-grid>div:first-child{max-width:930px!important;display:flex;flex-direction:column;align-items:center}
+.eyebrow{border:1px solid rgba(126,83,255,.55)!important;background:linear-gradient(90deg,rgba(55,67,190,.34),rgba(157,45,255,.26))!important;box-shadow:0 0 30px rgba(88,67,255,.18);padding:10px 17px!important;border-radius:999px!important;letter-spacing:.3px}
+.hero h1{font-size:clamp(52px,6.3vw,88px)!important;line-height:.98!important;letter-spacing:-4.8px!important;max-width:940px!important;margin:24px auto 24px!important;text-wrap:balance;text-shadow:0 10px 50px rgba(31,39,110,.2)}
+.hero h1 .gradient{background:linear-gradient(90deg,#688dff 0%,#9c57ff 48%,#dc3dff 100%)!important;-webkit-background-clip:text!important;background-clip:text!important;color:transparent!important}
+.hero p{max-width:760px!important;margin:0 auto!important;color:#c5c9df!important;font-size:18px!important;line-height:1.72!important}
+.hero-actions{justify-content:center!important;margin-top:28px!important;gap:14px!important}
+.hero-actions .btn-primary,.nav-cta{background:linear-gradient(100deg,#3185ff 0%,#7248ff 52%,#e139d8 100%)!important;box-shadow:0 14px 40px rgba(89,62,255,.34)!important;border:0!important}
+.hero-actions .btn-secondary{background:rgba(8,13,38,.56)!important;border:1px solid rgba(100,120,255,.5)!important;box-shadow:inset 0 0 30px rgba(54,83,255,.08)}
+.micro{justify-content:center!important;gap:10px 22px!important;color:#9fa9c8!important;margin-top:20px!important}
+.micro span:before{color:#5d8cff!important}
+.product-window{position:relative!important;width:min(1080px,100%)!important;margin:18px auto 0!important;padding:0!important;background:transparent!important;border:0!important;box-shadow:none!important;transform:none!important}
+.window-bar{display:none!important}
+.product-window:before{content:"";position:absolute;z-index:-1;left:8%;right:8%;top:18%;bottom:0;border-radius:50%;background:radial-gradient(ellipse,rgba(77,58,255,.55),rgba(47,96,255,.18) 42%,transparent 72%);filter:blur(38px)}
+.product-window:after{content:"";position:absolute;left:5%;right:5%;bottom:2%;height:2px;background:linear-gradient(90deg,transparent,#3f7dff 28%,#bb5bff 55%,#ef45dc 75%,transparent);box-shadow:0 0 28px rgba(87,86,255,.8);opacity:.7}
+.product-window>img{display:block;width:100%;height:auto;border-radius:22px;box-shadow:0 40px 100px rgba(0,0,0,.52),0 0 0 1px rgba(118,121,255,.22),0 0 90px rgba(55,75,255,.25);-webkit-mask-image:linear-gradient(to bottom,transparent 0%,#000 5%,#000 93%,transparent 100%);mask-image:linear-gradient(to bottom,transparent 0%,#000 5%,#000 93%,transparent 100%)}
+.hero-showcase{position:relative;width:min(1160px,100%);margin-top:0;min-height:470px}
+.hero-showcase .hero-main-image{position:relative;z-index:3;width:82%;margin:0 auto;transform:translateY(4px);border-radius:22px;box-shadow:0 40px 110px rgba(0,0,0,.58),0 0 0 1px rgba(106,119,255,.2),0 0 100px rgba(53,72,255,.28)}
+.hero-showcase .hero-main-image img{display:block;width:100%;border-radius:22px}
+.hero-showcase .hero-side{position:absolute;z-index:4;width:26%;border:1px solid rgba(110,135,255,.42);background:linear-gradient(145deg,rgba(15,23,57,.94),rgba(11,10,38,.78));backdrop-filter:blur(16px);border-radius:18px;padding:18px;box-shadow:0 25px 60px rgba(0,0,0,.4),0 0 35px rgba(64,71,255,.18);text-align:left}
+.hero-showcase .hero-side strong{display:block;color:#fff;font-size:15px;margin-bottom:7px}.hero-showcase .hero-side span{display:block;color:#aeb7d4;font-size:12px;line-height:1.5}.hero-showcase .hero-side.left{left:0;top:92px}.hero-showcase .hero-side.right{right:0;top:54px}.hero-showcase .hero-side .mini-icon{display:inline-flex;width:38px;height:38px;border-radius:12px;align-items:center;justify-content:center;margin-bottom:10px;background:linear-gradient(135deg,#2f8dff,#7d3cff);font-size:19px;color:#fff}
+.hero-showcase .hero-float{position:absolute;z-index:5;border:1px solid rgba(110,135,255,.34);background:rgba(8,12,36,.78);backdrop-filter:blur(14px);border-radius:14px;padding:12px 16px;color:#e9edff;box-shadow:0 18px 50px rgba(0,0,0,.38);font-size:12px;letter-spacing:.1px}
+.hero-showcase .hero-float.one{left:18%;bottom:20px}.hero-showcase .hero-float.two{right:19%;bottom:8px}
+.hero-showcase .hero-float b{color:#7fa0ff}
+.hero-orb{position:absolute;border-radius:50%;filter:blur(.2px);pointer-events:none}.hero-orb.a{width:150px;height:150px;left:-30px;top:34%;background:radial-gradient(circle at 35% 35%,#6d6dff,rgba(48,55,255,.5) 35%,transparent 72%);box-shadow:0 0 60px rgba(72,60,255,.45)}.hero-orb.b{width:110px;height:110px;right:-8px;top:38%;background:radial-gradient(circle at 35% 35%,#9c4dff,rgba(101,38,255,.38) 40%,transparent 75%);box-shadow:0 0 60px rgba(129,49,255,.45)}
+.trust-strip{background:linear-gradient(180deg,rgba(9,13,38,.95),rgba(7,9,27,.95))!important;border-top:1px solid rgba(105,119,255,.12)!important;border-bottom:1px solid rgba(105,119,255,.12)!important}
+.section,.section-tight{background:#070a20!important}
+.section:nth-of-type(even){background:#080a23!important}
+.cta-band{background:linear-gradient(115deg,rgba(28,39,110,.8),rgba(71,26,113,.72))!important;border-color:rgba(116,100,255,.35)!important;box-shadow:0 30px 80px rgba(25,27,85,.3)}
+@media(max-width:900px){.hero{padding:44px 0 64px!important}.hero h1{font-size:clamp(44px,10vw,68px)!important;letter-spacing:-3px!important}.hero-showcase{min-height:auto}.hero-showcase .hero-main-image{width:94%}.hero-showcase .hero-side{display:none}.hero-showcase .hero-float.one{left:4%;bottom:-18px}.hero-showcase .hero-float.two{right:4%;bottom:-58px}.hero-orb.a{left:-70px}.hero-orb.b{right:-50px}}
+@media(max-width:600px){.brand-mark{width:42px!important;height:42px!important}.hero h1{font-size:clamp(39px,11vw,54px)!important;letter-spacing:-2.5px!important}.hero p{font-size:16px!important}.micro{display:none}.hero-showcase{margin-top:8px}.hero-showcase .hero-main-image{width:100%;border-radius:15px}.hero-showcase .hero-float{font-size:10px;padding:9px 11px}.hero-showcase .hero-float.one{left:2%;bottom:-14px}.hero-showcase .hero-float.two{right:2%;bottom:-47px}.product-window>img{border-radius:15px;mask-image:none;-webkit-mask-image:none}}
+</style>
+</head><body><header class="site-header"><div class="container nav-wrap"><a class="brand" href="/" aria-label="B2BProspects home"><img class="brand-mark" src="/assets/brand-mark-v6.png" alt="B2BProspects logo"><span>B2B<span>Prospects</span><small>.io</small></span></a><button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button><nav class="nav" aria-label="Primary navigation"><a href="/chrome-extension/">Chrome Extension</a><a href="/features/">Features</a><a href="/realtor-data/">Realtor Data</a><a href="/resources/">Resources</a><a href="/pricing/">Pricing</a><a href="/contact/">Contact</a></nav><a class="btn btn-primary nav-cta" href="https://chrome.google.com/webstore/detail/mnpdkbcgcdhegdmcjgfeiidcdmdfjkcg"><img class="chrome-cta-icon" src="/assets/chrome-logo-v8.png" alt="B2BProspects website data extraction tool" aria-hidden="true" loading="lazy"><span>Explore Extension</span><span>→</span></a></div></header><main><section class="hero"><div class="hero-orb a"></div><div class="hero-orb b"></div><div class="container hero-grid"><div><span class="eyebrow">Chrome extension • data marketplace</span><h1>Extract hidden <span class="gradient">realtor data</span> from directory websites.</h1><p>B2BProspects is a Chrome extension for real estate prospecting. It extracts available hidden or embedded realtor data from supported directory websites, lets you review the records, and exports structured prospect data to CSV.</p><div class="hero-actions"><a class="btn btn-primary" href="https://chrome.google.com/webstore/detail/mnpdkbcgcdhegdmcjgfeiidcdmdfjkcg">Explore the Chrome Extension →</a><a class="btn btn-secondary" href="/realtor-data/">Browse Realtor Data</a></div><div class="micro"><span>Realtor directory data extraction</span><span>Review extracted realtor records</span><span>Export prospect data to CSV</span></div></div><div class="hero-showcase"><div class="hero-side left"><span class="mini-icon">⌕</span><strong>Find Hidden Data</strong><span>Surface available embedded realtor information from supported directories.</span></div><div class="hero-side right"><span class="mini-icon">CSV</span><strong>Structured Data</strong><span>Review organized records and export practical prospect data.</span></div><div class="hero-main-image"><img src="/assets/extension-preview-1.png" alt="B2BProspects realtor data extraction and CSV export interface" width="1280" height="800"></div><div class="hero-float one"><b>24</b> realtor records found</div><div class="hero-float two"><b>CSV</b> ready to export</div></div></div></section>
 <section class="trust-strip" aria-label="Why B2BProspects">
   <div class="trust-item"><strong>⚡ Hidden-data extraction</strong><span>Surface available embedded realtor data from supported directories.</span></div>
   <div class="trust-item"><strong>📊 Review before export</strong><span>Check extracted realtor records before downloading.</span></div>
@@ -276,4 +115,4 @@
 <section class="section"><div class="container showcase"><div><span class="kicker">Product experience</span><h2>See the data before you use it.</h2><p class="muted">Explore the workflow from website discovery to structured results and CSV export. Multiple views show how B2BProspects fits into real prospecting and research workflows.</p><ul class="check-list"><li>Clear extraction workflow</li><li>Preview-first experience</li><li>CSV-oriented output</li><li>Spend less time copying data manually</li></ul><a class="btn btn-primary" href="https://chrome.google.com/webstore/detail/mnpdkbcgcdhegdmcjgfeiidcdmdfjkcg">See the extension →</a></div><div class="showcase-media showcase-collage"><div class="showcase-image showcase-image-main"><img src="/assets/extension-preview-1.png" alt="B2BProspects website extraction results and CSV preview" width="1280" height="800" loading="lazy"></div><div class="showcase-image showcase-image-small top"><img src="/assets/extension-preview-2.png" alt="B2BProspects structured data scan and export panel" width="1280" height="800" loading="lazy"></div><div class="showcase-image showcase-image-small bottom"><img src="/assets/extension-preview-3.png" alt="B2BProspects realtor website extraction results" width="1280" height="800" loading="lazy"></div></div></div></section>
 <section class="section"><div class="container"><div class="section-head"><div><span class="kicker">Ready-made data</span><h2>Realtor data without the wait.</h2><p>Browse the combined realtor-data inventory with Name, Phone, Email, and State. No state-by-state maze and no quote request just to see what is available.</p></div><a class="btn btn-secondary" href="/realtor-data/">Browse Realtor Data →</a></div><div class="cards"><article class="card data-card"><span class="tag">COMBINED DATA</span><h3>Realtor Data</h3><div class="record-count">One marketplace • preview before purchase</div><div class="fields"><span class="field">Name</span><span class="field">Phone</span><span class="field">Email</span><span class="field">State</span></div><a class="btn btn-secondary" href="/realtor-data/">View available data →</a></article><article class="card"><div class="icon">▤</div><h3>CSV-ready</h3><p>See the structure first and move directly toward the dataset you need.</p></article><article class="card"><div class="icon">→</div><h3>Fast path</h3><p>Built around browse → preview → purchase/download instead of quote requests.</p></article></div></div></section>
 <section class="section-tight"><div class="container"><div class="contact-strip"><div><span class="kicker">Need help?</span><h2>Have a question about the extension or data?</h2><p>Send it directly to B2BProspects.io. No complicated support flow.</p></div><a class="btn btn-secondary" href="/contact/">Contact us →</a></div></div></section>
-<section class="section"><div class="container"><div class="cta-band"><div><h2>Build your data workflow faster.</h2><p>Explore the extension first, then use the marketplace when a ready-made realtor list is the faster option.</p></div><a class="btn btn-primary" href="https://chrome.google.com/webstore/detail/mnpdkbcgcdhegdmcjgfeiidcdmdfjkcg">Explore B2BProspects →</a></div></div></section></main><footer class="footer"><div class="container footer-grid"><div><a class="brand footer-brand" href="/"><img class="brand-mark" src="/assets/brand-mark-v8.png" alt="B2BProspects logo" loading="lazy"><span>B2B<span>Prospects</span><small>.io</small></span></a><p>Practical tools for extracting useful website data and ready-to-use realtor datasets.</p><div class="footer-email"><a href="mailto:info@b2bprospects.io">info@b2bprospects.io</a></div></div><div><h3>Product</h3><a href="/chrome-extension/">Chrome Extension</a><a href="/features/">Features</a><a href="/pricing/">Pricing</a></div><div><h3>Data</h3><a href="/realtor-data/">Realtor Data</a></div><div><h3>Company</h3><a href="/about/">About</a><a href="/resources/">Resources</a><a href="/contact/">Contact</a><a href="/privacy-policy/">Privacy</a><a href="/terms/">Terms</a></div></div><div class="container footer-bottom"><span>© 2026 B2BProspects.io. All rights reserved.</span><span>Built for fast, practical data workflows.</span></div></footer><script src="/js/main.js"></script></body></html>
+<section class="section"><div class="container"><div class="cta-band"><div><h2>Build your data workflow faster.</h2><p>Explore the extension first, then use the marketplace when a ready-made realtor list is the faster option.</p></div><a class="btn btn-primary" href="https://chrome.google.com/webstore/detail/mnpdkbcgcdhegdmcjgfeiidcdmdfjkcg">Explore B2BProspects →</a></div></div></section></main><footer class="footer"><div class="container footer-grid"><div><a class="brand footer-brand" href="/"><img class="brand-mark" src="/assets/brand-mark-v6.png" alt="B2BProspects logo" loading="lazy"><span>B2B<span>Prospects</span><small>.io</small></span></a><p>Practical tools for extracting useful website data and ready-to-use realtor datasets.</p><div class="footer-email"><a href="mailto:info@b2bprospects.io">info@b2bprospects.io</a></div></div><div><h3>Product</h3><a href="/chrome-extension/">Chrome Extension</a><a href="/features/">Features</a><a href="/pricing/">Pricing</a></div><div><h3>Data</h3><a href="/realtor-data/">Realtor Data</a></div><div><h3>Company</h3><a href="/about/">About</a><a href="/resources/">Resources</a><a href="/contact/">Contact</a><a href="/privacy-policy/">Privacy</a><a href="/terms/">Terms</a></div></div><div class="container footer-bottom"><span>© 2026 B2BProspects.io. All rights reserved.</span><span>Built for fast, practical data workflows.</span></div></footer><script src="/js/main.js"></script></body></html>

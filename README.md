@@ -12,7 +12,7 @@ Name | Phone | Email | State
 ## Important
 - The Chrome Web Store URL is not fabricated while the extension is pending/publication status is being finalized.
 - Dataset checkout/download links are intentionally not fabricated until a payment/delivery provider is selected.
-- Contact form uses FormSubmit and forwards to b2bprospects.io@gmail.com.
+- Contact form uses FormSubmit and forwards to info@b2bprospects.io.
 - Replace example preview rows with real inventory before publishing dataset claims.
 
 

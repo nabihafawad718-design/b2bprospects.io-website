@@ -1,0 +1,7 @@
+B2BProspects Header Fix — surgical patch
+
+Replace only the matching route index.html files and css/approved-header.css in your existing repository.
+Do not replace the whole website.
+Do not replace your existing favicon/assets.
+This patch uses the approved homepage header: logo + Home + Chrome Extension + Features + Realtor Data + How It Works + Pricing + Resources + Get Started.
+How It Works also switches to /style.css so its page body is rendered instead of falling back to unstyled HTML.

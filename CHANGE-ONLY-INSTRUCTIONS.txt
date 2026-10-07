@@ -1,0 +1,13 @@
+B2BProspects — CHANGE-ONLY PATCH
+
+Replace/upload ONLY the files contained in this ZIP into your existing GitHub repository.
+Do NOT delete your existing repository files.
+
+This patch intentionally excludes:
+- homepage (index.html)
+- Chrome Extension / Pricing page
+- separate Pricing page
+
+The patch updates the remaining page routes and adds css/site-consistent-purple.css plus the purple favicon/Chrome icon required by the consistent site shell.
+
+After copying the files, hard-refresh the site (Ctrl+F5) because CSS/assets may be cached.

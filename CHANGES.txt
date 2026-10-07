@@ -1,0 +1,10 @@
+MASTER PATCH
+- One approved header architecture across all affected route pages.
+- Exact navigation: Home / Chrome Extension / Features / Realtor Data / How It Works / Resources / Contact.
+- One consistent Explore Extension CTA.
+- One consistent B2BProspects logo treatment.
+- One consistent purple favicon reference.
+- Removes the stray How It Works topbar.
+- Fixes How It Works stylesheet path to /css/style.css.
+- Preserves page-specific body layouts and SEO content.
+- Does not include the full site.

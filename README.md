@@ -1,20 +1,9 @@
-# B2BProspects.io V3
+B2BProspects — MASTER HEADER / FAVICON / HOW-IT-WORKS PATCH
 
-GitHub Pages-ready static website.
+This is a CHANGE-ONLY patch. Do not replace the whole website.
 
-## Product priority
-1. Chrome extension
-2. Realtor data marketplace
+Replace only the matching files in your existing repository. This patch standardizes the approved header across the affected route pages, normalizes the purple favicon, removes the stray How It Works topbar, and fixes its stylesheet path so the page is styled instead of appearing as raw HTML.
 
-## Realtor dataset schema
-Name | Phone | Email | State
+The page bodies/content/SEO are preserved.
 
-## Important
-- The Chrome Web Store URL is not fabricated while the extension is pending/publication status is being finalized.
-- Dataset checkout/download links are intentionally not fabricated until a payment/delivery provider is selected.
-- Contact form uses FormSubmit and forwards to info@b2bprospects.io.
-- Replace example preview rows with real inventory before publishing dataset claims.
-
-
-## Local preview
-Extract the ZIP first. Do not open files from inside the compressed folder. For a reliable preview, run `python -m http.server 8000` in this folder and open `http://localhost:8000/`.
+Affected routes are the route/index.html files included here. The separate /pricing/ route is intentionally excluded.

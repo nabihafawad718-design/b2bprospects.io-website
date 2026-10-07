@@ -1,0 +1,22 @@
+
+/* B2BProspects approved purple design layer — presentation only. */
+:root{--green:#a78bfa;--approved-purple:#7c3aed;--approved-violet:#8b5cf6;--approved-pink:#ec4899;--approved-bg:#070b24;--approved-text:#f7f5ff;--approved-muted:#bfc3dc}
+html{background:var(--approved-bg)!important}
+body{background:radial-gradient(circle at 82% 5%,rgba(139,92,246,.18),transparent 27%),radial-gradient(circle at 12% 28%,rgba(124,58,237,.12),transparent 24%),var(--approved-bg)!important;color:var(--approved-text)!important}
+.site-header{background:rgba(5,8,28,.84)!important;border-bottom:1px solid rgba(255,255,255,.08)!important;backdrop-filter:blur(18px)!important}
+.nav-wrap{min-height:70px!important}
+.brand{font-size:20px!important;gap:8px!important}.brand img,.brand .brand-mark,.footer-brand .brand-mark{width:31px!important;height:31px!important;border-radius:8px!important;object-fit:contain!important;filter:drop-shadow(0 5px 16px rgba(139,92,246,.22))!important}
+.brand span span{background:linear-gradient(90deg,#8b5cf6,#ec4899)!important;-webkit-background-clip:text!important;background-clip:text!important;color:transparent!important}
+.nav{gap:24px!important}.nav a{color:#cdd0df!important}.nav a:hover{color:#fff!important}
+.nav-cta{border-radius:12px!important;background:linear-gradient(135deg,#6d28d9,#8b5cf6 55%,#ec4899)!important;box-shadow:0 12px 30px rgba(99,72,255,.22)!important;padding:10px 14px!important}
+.hero,.page-hero{background:radial-gradient(circle at 78% 8%,rgba(168,85,247,.18),transparent 31%),radial-gradient(circle at 15% 38%,rgba(59,130,246,.10),transparent 28%)!important}
+.page-hero{padding:82px 0 58px!important}.page-hero h1,.hero h1{letter-spacing:-.06em!important}.breadcrumbs{color:#8f94b0!important}.breadcrumbs a{color:#c7c3ff!important}
+.eyebrow{border-color:rgba(139,92,246,.42)!important;background:rgba(109,40,217,.12)!important;color:#ddd5ff!important}
+.gradient{background:linear-gradient(110deg,#668cff 15%,#a14bff 52%,#ec49ba 92%)!important;-webkit-background-clip:text!important;background-clip:text!important;color:transparent!important}
+.card,.price-card,.csv-wrap,.stats,.notice{border-color:rgba(255,255,255,.09)!important}.card:hover{border-color:rgba(139,92,246,.45)!important}
+.btn-primary,.realtor-sample-primary{background:linear-gradient(135deg,#6d28d9,#8b5cf6 55%,#ec4899)!important;border:0!important;box-shadow:0 12px 30px rgba(139,92,246,.22)!important}
+.btn-secondary{background:rgba(255,255,255,.045)!important}.icon{background:rgba(139,92,246,.13)!important;border-color:rgba(139,92,246,.25)!important}
+.cta-band{background:linear-gradient(135deg,rgba(109,40,217,.34),rgba(236,72,153,.16))!important;border-color:rgba(196,145,255,.25)!important}
+.footer{background:#050719!important;border-top-color:rgba(255,255,255,.08)!important}.footer a:hover{color:#fff!important}
+.footer-email a{color:#c7c3d8!important}
+@media(max-width:900px){.nav-wrap{min-height:64px!important}.brand img,.brand .brand-mark{width:31px!important;height:31px!important}}

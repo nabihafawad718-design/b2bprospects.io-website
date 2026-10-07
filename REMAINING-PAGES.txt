@@ -1,0 +1,10 @@
+B2BProspects remaining-pages package
+
+This package is intended to be added alongside the already-finalized homepage and Chrome Extension/pricing page.
+
+Excluded intentionally:
+- Homepage /
+- Chrome Extension /chrome-extension/
+- Separate Pricing /pricing/
+
+All remaining page content and SEO metadata are retained from the full site source. The approved purple presentation layer, shared branding assets, and navigation routing are applied across the remaining pages.

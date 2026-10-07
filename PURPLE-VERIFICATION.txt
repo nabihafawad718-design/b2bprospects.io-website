@@ -1,0 +1,14 @@
+B2BProspects Remaining Pages — Purple Verification
+
+This package was rebuilt from the remaining-page source and then verified.
+
+- 43 HTML pages/routes are included.
+- Homepage is excluded.
+- Chrome Extension / pricing page is excluded.
+- Separate pricing page is excluded.
+- Shared CSS was updated with the approved purple visual system.
+- The shared purple override is present in css/style.css and css/b2bprospects-approved-purple.css.
+- Pages use the purple logo asset and purple favicon.
+- The former green b2bprospects-logo.jfif asset was removed.
+- Existing SEO page content, metadata, canonical URLs and structured data were preserved.
+- Existing page-specific layouts remain distinct; the shared purple system is applied consistently.

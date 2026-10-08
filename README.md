@@ -1,36 +1,9 @@
-# B2BProspects.io
+B2BProspects — MASTER HEADER / FAVICON / HOW-IT-WORKS PATCH
 
-Static website for B2BProspects.io.
+This is a CHANGE-ONLY patch. Do not replace the whole website.
 
-## Deployment
+Replace only the matching files in your existing repository. This patch standardizes the approved header across the affected route pages, normalizes the purple favicon, removes the stray How It Works topbar, and fixes its stylesheet path so the page is styled instead of appearing as raw HTML.
 
-The repository is structured for direct deployment to GitHub Pages or another static hosting provider. The clean trailing-slash routes are the canonical public URLs.
+The page bodies/content/SEO are preserved.
 
-The legacy `.html` pages are intentionally retained as compatibility redirects to the corresponding clean URLs. They should not be removed unless a future migration confirms that the legacy URLs no longer need compatibility coverage.
-
-## Primary routes
-
-- `/` — homepage
-- `/chrome-extension/` — Chrome Extension and pricing
-- `/realtor-data/` — Realtor Data
-- `/how-it-works/` — How It Works
-- `/features/` — Features
-- `/resources/` — Resources
-- `/contact/` — Contact
-- `/about/` — About
-- `/faq/` — FAQ
-- `/privacy-policy/` — Privacy Policy
-- `/terms/` — Terms
-
-SEO/content routes are also preserved in `sitemap.xml`.
-
-## Pricing
-
-- Professional: $49/month
-- Business: $190/year
-- Checkout: https://whop.com/b2bprospects-6e99/b2bprospects-pro/
-- Chrome Web Store: https://chrome.google.com/webstore/detail/mnpdkbcgcdhegdmcjgfeiidcdmdfjkcg
-
-## Contact
-
-info@b2bprospects.io
+Affected routes are the route/index.html files included here. The separate /pricing/ route is intentionally excluded.

@@ -10,7 +10,7 @@ https://b2bprospects.io/
 - Features: https://b2bprospects.io/features/
 - How it works: https://b2bprospects.io/how-it-works/
 - Chrome Extension: https://b2bprospects.io/chrome-extension/
-- Pricing: https://b2bprospects.io/pricing/
+- Pricing: https://b2bprospects.io/chrome-extension/
 - FAQ: https://b2bprospects.io/faq/
 - Contact: https://b2bprospects.io/contact/
 
@@ -28,10 +28,9 @@ https://b2bprospects.io/
 - Extract Realtor Data: https://b2bprospects.io/extract-realtor-data/
 
 ## Chrome Extension pricing
-- Free trial: $0 for 7 days
-- Pro Monthly: $19/month
-- Pro Annual: $190/year
-- Official Chrome Web Store listing: https://chromewebstore.google.com/detail/b2bprospectsio-intelligen/mnpdkbcgcdhegdmcjgfeiidcdmdfjkcg
+- Professional: $49/month
+- Business: $190/year
+- Official Chrome Web Store listing: https://chrome.google.com/webstore/detail/mnpdkbcgcdhegdmcjgfeiidcdmdfjkcg
 
 ## About
 B2BProspects.io is a commercial website-data extraction and prospecting product. Use the official website pages above as the primary sources for current product information.

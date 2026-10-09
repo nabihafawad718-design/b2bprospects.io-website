@@ -18,3 +18,15 @@
 
 /* Header readability fix: keep navigation text crisp and consistent on every page. */
 .b2b-master-nav,.b2b-master-nav a{color:#263443!important;opacity:1!important;text-shadow:none!important}.b2b-master-nav a.active{color:#10294a!important;font-weight:700!important}
+
+
+/* Shared header normalization: match the approved homepage dimensions. */
+.approved-site-header,.site-consistent-header{height:70px!important;min-height:70px!important;box-sizing:border-box!important;flex-wrap:nowrap!important}
+.approved-site-header .approved-brand,.approved-brand,.site-consistent-header .sc-brand,.sc-brand,.b2b-master-header .b2b-master-brand,.b2b-master-brand{display:flex!important;align-items:center!important;gap:7px!important;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif!important;font-size:20px!important;font-weight:850!important;line-height:1!important;letter-spacing:-.02em!important;white-space:nowrap!important;transform:none!important;zoom:1!important}
+.approved-site-header .approved-brand img,.approved-brand img,.site-consistent-header .sc-brand img,.sc-brand img,.b2b-master-header .b2b-master-brand img,.b2b-master-brand img{width:31px!important;height:31px!important;min-width:31px!important;min-height:31px!important;max-width:31px!important;max-height:31px!important;flex:0 0 31px!important;object-fit:contain!important;transform:none!important}
+.site-consistent-header .sc-container{height:70px!important;min-height:70px!important;flex-wrap:nowrap!important}
+.b2b-master-header{height:70px!important;min-height:70px!important}
+.b2b-master-header .b2b-master-container{height:70px!important;min-height:70px!important}
+.approved-site-header .approved-navlinks,.site-consistent-header .sc-links,.b2b-master-header .b2b-master-links{font-size:13px!important;font-weight:400!important}
+.approved-site-header .approved-navlinks a,.site-consistent-header .sc-links a,.b2b-master-header .b2b-master-links a{font-weight:400!important}
+.approved-site-header .approved-navlinks a.active,.site-consistent-header .sc-links a.active,.b2b-master-header .b2b-master-links a.active{font-weight:700!important}

@@ -1,0 +1,14 @@
+B2BProspects.io — only modified files
+======================================
+
+This archive contains only files that differ between the original ZIP and the previously prepared ZIP.
+It includes the site pages whose header markup/styles were changed and a corrected sitemap.xml.
+
+IMPORTANT:
+- Back up the current GitHub repository before uploading.
+- Upload/replace the files in this archive, preserving their folder paths.
+- To remove the standalone Pricing page from GitHub, delete these existing files manually if they are present:
+  - pricing.html
+  - pricing/index.html
+  Uploading this archive alone does NOT delete files that are already in GitHub.
+- The sitemap.xml in this archive removes the malformed empty <url></url> entry and omits the standalone /pricing/ URL.

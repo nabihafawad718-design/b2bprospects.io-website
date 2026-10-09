@@ -47,7 +47,26 @@
 @media(max-width:480px){.site-consistent-footer-grid{grid-template-columns:1fr}.site-consistent-brand{font-size:18px}.site-consistent-cta span.sc-cta-label{display:none}}
 </style>
 <link rel="stylesheet" href="/css/b2bprospects-master-header.css">
-</head><header class="b2b-master-header"><div class="b2b-master-inner"><a class="b2b-master-brand" href="/" aria-label="B2BProspects home"><img src="/assets/favicon-purple.png" alt="B2BProspects logo"><span>B2B<span class="purple">Prospects</span><span class="dot">.io</span></span></a><button class="b2b-master-menu" type="button" aria-label="Open navigation" aria-expanded="false">☰</button><nav class="b2b-master-nav" aria-label="Primary navigation"><a class="" href="/">Home</a><a class="active" href="/chrome-extension/">Chrome Extension</a><a class="" href="/features/">Features</a><a class="" href="/realtor-data/">Realtor Data</a><a class="" href="/how-it-works/">How It Works</a><a class="" href="/resources/">Resources</a><a class="" href="/contact/">Contact</a></nav><a class="b2b-master-cta" href="https://chrome.google.com/webstore/detail/mnpdkbcgcdhegdmcjgfeiidcdmdfjkcg"><img src="/assets/chrome-logo-v8.png" alt="" aria-hidden="true"><span class="label">Explore Extension</span><span class="arrow">→</span></a></div></header><script id="b2bprospects-master-header-js">document.addEventListener("DOMContentLoaded",function(){var b=document.querySelector(".b2b-master-menu"),n=document.querySelector(".b2b-master-nav");if(b&&n){b.addEventListener("click",function(){var open=n.classList.toggle("open");b.setAttribute("aria-expanded",open?"true":"false");});}});</script><main>
+<style id="sitewide-homepage-header">
+.header{height:70px;border-bottom:1px solid #eeeaf6;background:#fff;position:relative;z-index:100}
+.header .container.nav{width:min(1180px,calc(100% - 48px));margin:auto;height:100%;display:flex;align-items:center;gap:30px}
+.header .brand{display:flex;align-items:center;gap:7px;font-size:20px;font-weight:850;white-space:nowrap}
+.header .brand img{width:31px;height:31px;object-fit:contain}
+.header .brand b{color:var(--green,#5b21d6)}
+.header .navlinks{display:flex;justify-content:center;align-items:center;gap:27px;flex:1;font-size:13px;color:#263443}
+.header .navlinks a{padding:25px 0 21px;border-bottom:2px solid transparent;white-space:nowrap}
+.header .navlinks a.active{border-color:var(--green,#5b21d6);font-weight:700;color:#10294a}
+.header .actions{display:flex;gap:9px;flex-shrink:0}
+.header .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:8px;padding:11px 18px;font-size:13px;font-weight:750;border:1px solid transparent;transition:.18s ease}
+.header .btn-primary{background:var(--green,#5b21d6);color:#fff;box-shadow:0 6px 18px rgba(91,33,214,.18)}
+@media(max-width:900px){.header .navlinks{gap:12px}.header .navlinks a:nth-child(3),.header .navlinks a:nth-child(4){display:none}}
+@media(max-width:600px){.header .container.nav{width:calc(100% - 28px);gap:12px}.header .navlinks{display:none}.header .actions .btn-outline{display:none}.header .brand{font-size:18px}.header .actions{margin-left:auto}}
+</style>
+</head><header class="header"><div class="container nav">
+<a class="brand" href="/"><img src="/assets/favicon-purple.png" alt="B2BProspects logo"><span>B2B<b>Prospects</b></span></a>
+<nav class="navlinks" aria-label="Primary navigation"><a class="active" href="/">Home</a><a class="active" href="/chrome-extension/">Chrome Extension</a><a href="/realtor-data/">Realtor Data</a><a href="/how-it-works/">How It Works</a><a href="/resources/">Resources⌄</a></nav>
+<div class="actions"><a class="btn btn-primary" href="https://chrome.google.com/webstore/detail/mnpdkbcgcdhegdmcjgfeiidcdmdfjkcg">Get Started</a></div>
+</div></header><script id="b2bprospects-master-header-js">document.addEventListener("DOMContentLoaded",function(){var b=document.querySelector(".b2b-master-menu"),n=document.querySelector(".b2b-master-nav");if(b&&n){b.addEventListener("click",function(){var open=n.classList.toggle("open");b.setAttribute("aria-expanded",open?"true":"false");});}});</script><main>
 <section class="pricing-hero"><div class="container"><span class="eyebrow">Chrome Extension Pricing</span><h1>Choose the plan that fits your <span class="accent">prospecting workflow.</span></h1><p>Everything from the pricing page has moved here so visitors who choose Chrome Extension can go directly to the plans. Simple pricing, clear features, and one-click checkout.</p></div></section>
 <section class="pricing-wrap"><div class="container"><div class="pricing-intro"><span class="kicker">Simple, transparent pricing</span><h2>Pick Your B2BProspects Plan</h2><p>Both plans include the same core options. The difference is the billing period and price.</p></div><div class="pricing-cards">
 <article class="pricing-card featured"><span class="popular-badge">MOST POPULAR</span><span class="plan-label">Monthly</span><h3>Professional</h3><div class="big-price">$49 <small>/month</small></div><p class="desc">Full access to the B2BProspects Chrome Extension with flexible monthly billing.</p><ul><li>Unlimited storage</li><li>All data fields</li><li>Unlimited tickets</li><li>Priority support</li></ul><a class="btn btn-primary" href="https://whop.com/b2bprospects-6e99/b2bprospects-pro/">Get Started →</a></article>

@@ -1,5 +1,7 @@
-B2BProspects header/brand consistency patch
+B2BProspects targeted typography/navigation patch
 
-This patch includes the previously prepared targeted header files, with an additional adjustment to make the B2BProspects wordmark (font size, weight, spacing, and icon size) consistent on pages using the shared header.
+Upload the included files to the matching paths in your existing GitHub repository, replacing only those files.
+- css/site-final.css: normalizes shared brand/header typography and limits bold styling to the active navigation link.
+- The included page index.html files: correct the active navigation class so only the current page is highlighted. Page content is otherwise unchanged.
 
-Upload/replace the included files at the same paths in your GitHub repository. Keep a backup first. This ZIP does not include a live-site verification. The standalone Pricing page files are not deleted automatically by GitHub ZIP upload; delete them separately only if you still want that page removed.
+Do not upload this instruction file. Keep a backup of your current files. After deployment, hard-refresh the homepage, How It Works, and Chrome Extension pages.

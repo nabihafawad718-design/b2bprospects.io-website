@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex" />
+  <title>Feedback — B2BProspects.io</title>
+  <style>
+    :root { --primary:#6E22D9; --pink:#FF4FA3; --bg:#F8F9FB; --text:#111827; --muted:#6B7280; --border:#E5E7EB; --ok:#059669; --err:#DC2626; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background:var(--bg); color:var(--text); }
+    .wrap { max-width:520px; margin:0 auto; padding:40px 20px 60px; }
+    .brand { font-weight:700; font-size:18px; color:var(--primary); margin-bottom:24px; }
+    .brand span { color:var(--pink); }
+    .card { background:#fff; border:1px solid var(--border); border-radius:14px; padding:28px; box-shadow:0 4px 24px rgba(110,34,217,.07); }
+    h1 { font-size:22px; margin:0 0 6px; }
+    .sub { color:var(--muted); font-size:14px; margin:0 0 20px; }
+    .opt { display:flex; align-items:center; gap:10px; padding:11px 12px; border:1px solid var(--border); border-radius:10px; margin-bottom:8px; cursor:pointer; font-size:14.5px; }
+    .opt:hover { border-color:var(--primary); }
+    .opt input { accent-color:var(--primary); margin:0; }
+    .opt:has(input:checked) { border-color:var(--primary); background:rgba(110,34,217,.05); }
+    label.field { display:block; font-size:13px; font-weight:600; margin:18px 0 6px; }
+    textarea, input[type=email] { width:100%; font:inherit; font-size:14px; padding:10px 12px; border:1px solid var(--border); border-radius:10px; }
+    textarea { min-height:100px; resize:vertical; }
+    textarea:focus, input[type=email]:focus { outline:2px solid rgba(110,34,217,.35); border-color:var(--primary); }
+    .count { font-size:11.5px; color:var(--muted); text-align:right; margin-top:4px; }
+    button { width:100%; margin-top:18px; padding:13px; border:0; border-radius:10px; font:inherit; font-weight:600; font-size:15px; color:#fff; cursor:pointer; background:linear-gradient(135deg,var(--primary),#8A2BE2 60%,var(--pink) 140%); }
+    button:disabled { opacity:.55; cursor:not-allowed; }
+    .msg { margin-top:14px; font-size:13.5px; display:none; }
+    .msg.err { display:block; color:var(--err); }
+    .thanks { text-align:center; padding:12px 0; }
+    .thanks .tick { font-size:40px; color:var(--ok); }
+    .hp { position:absolute; left:-9999px; width:1px; height:1px; overflow:hidden; }
+    .priv { font-size:11.5px; color:var(--muted); margin-top:14px; text-align:center; }
+    [hidden] { display:none !important; }
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <div class="brand">B2BProspects<span>.io</span></div>
+  <div class="card">
+    <form id="form" novalidate>
+      <h1 id="title"></h1>
+      <p class="sub" id="sub"></p>
+      <div id="options" role="radiogroup" aria-labelledby="title"></div>
+
+      <label class="field" for="comment">Anything else you'd like to tell us? <span style="font-weight:400;color:var(--muted)">(optional)</span></label>
+      <textarea id="comment" maxlength="1000"></textarea>
+      <div class="count"><span id="n">0</span>/1000</div>
+
+      <div id="emailRow" hidden>
+        <label class="field" for="email">Email, if you'd like a reply <span style="font-weight:400;color:var(--muted)">(optional)</span></label>
+        <input type="email" id="email" maxlength="200" autocomplete="email" />
+      </div>
+
+      <!-- honeypot: real people never see or fill this -->
+      <div class="hp" aria-hidden="true"><label>Website <input type="text" id="website" tabindex="-1" autocomplete="off" /></label></div>
+
+      <button type="submit" id="submit">Send feedback</button>
+      <div class="msg" id="msg" role="alert"></div>
+      <p class="priv">We only store your answer and the extension version. No browsing data.</p>
+    </form>
+
+    <div class="thanks" id="thanks" hidden>
+      <div class="tick">✓</div>
+      <h1>Thank you!</h1>
+      <p class="sub" style="margin:0">Your feedback was saved. It genuinely helps us improve.</p>
+    </div>
+  </div>
+</div>
+
+<script>
+  // 1) After deploying the Google Apps Script web app (see apps-script.gs),
+  //    paste its "/exec" URL here. Until then the form refuses to pretend it saved.
+  const FEEDBACK_ENDPOINT = 'https://script.google.com/macros/s/AKfycbzRhQK_DwCJryOTtNm9ymv9xCMiVBCTKZ1u5obJ9qdbvygihofJL8CHd7_a3ZFPSZfyYw/exec';
+
+  const UNINSTALL = {
+    title: 'Why did you uninstall?',
+    sub: "Sorry to see you go. One click helps us fix what's wrong.",
+    options: [
+      ['didnt_work', "It didn't work"],
+      ['too_slow', 'Too slow'],
+      ['missing_features', 'Missing features'],
+      ['too_expensive', 'Too expensive'],
+      ['not_useful', 'Not useful enough'],
+      ['found_alternative', 'Found an alternative'],
+      ['just_testing', 'Just testing'],
+      ['other', 'Other'],
+    ],
+  };
+  const REPORT = {
+    title: 'Feedback / Report a problem',
+    sub: 'Tell us what happened, or what you wish it did.',
+    options: [
+      ['problem', "Something isn't working"],
+      ['too_slow', 'It is slow'],
+      ['missing_features', 'A feature is missing'],
+      ['pricing', 'Pricing question'],
+      ['other', 'Other'],
+    ],
+  };
+
+  const params = new URLSearchParams(location.search);
+  const src = params.get('src') === 'popup' ? 'popup' : 'uninstall'; // default: uninstall survey
+  const version = (params.get('v') || '').replace(/[^0-9A-Za-z.\-]/g, '').slice(0, 20);
+  const cfg = src === 'popup' ? REPORT : UNINSTALL;
+
+  const $ = (id) => document.getElementById(id);
+  $('title').textContent = cfg.title;
+  $('sub').textContent = cfg.sub;
+  document.title = cfg.title + ' — B2BProspects.io';
+  if (src === 'popup') $('emailRow').hidden = false;
+
+  $('options').innerHTML = cfg.options
+    .map(([id, label]) => `<label class="opt"><input type="radio" name="reason" value="${id}" /> ${label}</label>`)
+    .join('');
+
+  $('comment').addEventListener('input', () => { $('n').textContent = $('comment').value.length; });
+
+  function showError(text) { const m = $('msg'); m.textContent = text; m.className = 'msg err'; }
+
+  $('form').addEventListener('submit', async (ev) => {
+    ev.preventDefault();
+    $('msg').className = 'msg';
+    const reason = (document.querySelector('input[name=reason]:checked') || {}).value;
+    if (!reason) return showError('Please pick one option.');
+    if (!FEEDBACK_ENDPOINT || FEEDBACK_ENDPOINT.startsWith('PASTE_')) {
+      return showError('Feedback is not connected yet. Please try again later.');
+    }
+
+    const payload = {
+      reason,
+      comment: $('comment').value.trim().slice(0, 1000),
+      email: src === 'popup' ? $('email').value.trim().slice(0, 200) : '',
+      src, version,
+      website: $('website').value, // honeypot
+    };
+
+    const btn = $('submit');
+    btn.disabled = true; btn.textContent = 'Sending…';
+    const ctrl = new AbortController();
+    const timer = setTimeout(() => ctrl.abort(), 15000);
+    try {
+      // text/plain keeps this a "simple" request, so no CORS preflight is needed.
+      const res = await fetch(FEEDBACK_ENDPOINT, { method: 'POST', body: JSON.stringify(payload), signal: ctrl.signal });
+      const data = await res.json();
+      if (!data || data.ok !== true) throw new Error('not saved');
+      $('form').hidden = true; $('thanks').hidden = false;
+    } catch (e) {
+      showError("We couldn't save your feedback. Please check your connection and try again.");
+      btn.disabled = false; btn.textContent = 'Send feedback';
+    } finally {
+      clearTimeout(timer);
+    }
+  });
+</script>
+</body>
+</html>
